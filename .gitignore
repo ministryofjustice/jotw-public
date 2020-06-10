@@ -11,7 +11,7 @@ web/.well-known/*
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
-!web/app/mu-plugins/moj/*/
+!web/app/mu-plugins/moj/
 !web/app/mu-plugins/moj/functions.php
 web/app/upgrade
 web/app/languages
