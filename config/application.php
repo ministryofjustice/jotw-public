@@ -37,7 +37,7 @@ if (file_exists($env_config)) {
  */
 define('WP_HOME', env('WP_HOME'));
 define('WP_SITEURL', env('WP_HOME'));
-define('COOKIE_DOMAIN', env('SERVER_NAME'));
+define('COOKIE_DOMAIN', $_SERVER['HTTP_HOST']);
 
 /**
  * Custom Content Directory
