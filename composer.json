@@ -39,6 +39,7 @@
     "wpackagist-plugin/classic-editor": "*",
     "wpackagist-plugin/contact-form-7": "*",
     "wpackagist-plugin/unconfirmed": "*",
+    "wpackagist-plugin/wp-force-login": "*",
     "wpackagist-plugin/nhsblocks": "*",
     "ministryofjustice/wp-rewrite-media-to-s3": "*",
     "ministryofjustice/wp-moj-components": "*",
