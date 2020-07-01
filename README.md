@@ -21,7 +21,7 @@ A multisite installation for MoJ JOTW websites
 
 1. Clone this repo to your local machine and change directories.
     ```bash
-    git clone git@github.com:ministryofjustice/wp-ms-campaigns.git .
+    git clone git@github.com:ministryofjustice/wp-jotw-public.git .
     cd wp-ms-campaigns/
     ```
 
