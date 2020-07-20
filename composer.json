@@ -44,7 +44,7 @@
     "ministryofjustice/wp-rewrite-media-to-s3": "*",
     "ministryofjustice/wp-moj-components": "*",
     "ministryofjustice/wp-user-roles": "*",
-    "wpackagist-theme/nightingale":"*"
+    "ministryofjustice/nightingale":"dev-master"
 
   },
   "require-dev": {

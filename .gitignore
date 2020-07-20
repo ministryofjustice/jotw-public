@@ -21,6 +21,7 @@ web/app/uploads/*
 web/app/cache
 
 # Theme
+web/app/themes/*
 web/app/themes/*/dist/*
 !web/app/themes/*/dist/*.md
 web/app/themes/*/node_modules

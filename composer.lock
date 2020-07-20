@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d29c89592d5feb6549a98a11e00f9b7a",
+    "content-hash": "f11469b497276efd84232b7659f0c0e4",
     "packages": [
         {
             "name": "acf/advanced-custom-fields-pro",
@@ -18,16 +18,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.144.1",
+            "version": "3.146.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3c6cc59be6a01f228fb53b2b5f43c1fd7d44a88c"
+                "reference": "3975a494888375b5bdabf21285f86b47d6e9d531"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3c6cc59be6a01f228fb53b2b5f43c1fd7d44a88c",
-                "reference": "3c6cc59be6a01f228fb53b2b5f43c1fd7d44a88c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3975a494888375b5bdabf21285f86b47d6e9d531",
+                "reference": "3975a494888375b5bdabf21285f86b47d6e9d531",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-06-30T18:14:11+00:00"
+            "time": "2020-07-15T18:18:08+00:00"
         },
         {
             "name": "composer/installers",
@@ -624,18 +624,39 @@
             "time": "2018-02-04T10:52:01+00:00"
         },
         {
-            "name": "ministryofjustice/wp-moj-components",
-            "version": "3.2.1",
+            "name": "ministryofjustice/nightingale",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ministryofjustice/wp-moj-components.git",
-                "reference": "f80ad1cda3dd9c01d74b02e11e021e5cb6f0b1e0"
+                "url": "https://github.com/ministryofjustice/nightingale.git",
+                "reference": "28656a493f38ac8c7d08c2ded8b60abc53a9ae59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-components/ministryofjustice-wp-moj-components-f80ad1cda3dd9c01d74b02e11e021e5cb6f0b1e0-zip-64d040.zip",
-                "reference": "f80ad1cda3dd9c01d74b02e11e021e5cb6f0b1e0",
-                "shasum": "b518ee7bd19ade64c1daccf83aa7d630516a863e"
+                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/28656a493f38ac8c7d08c2ded8b60abc53a9ae59",
+                "reference": "28656a493f38ac8c7d08c2ded8b60abc53a9ae59",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "description": "Nightingale generic theme",
+            "support": {
+                "source": "https://github.com/ministryofjustice/nightingale/tree/master"
+            },
+            "time": "2020-07-16T14:02:26+00:00"
+        },
+        {
+            "name": "ministryofjustice/wp-moj-components",
+            "version": "3.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ministryofjustice/wp-moj-components.git",
+                "reference": "1f728c926cedc5afdea53272e7b97a4fab3dc511"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-components/ministryofjustice-wp-moj-components-1f728c926cedc5afdea53272e7b97a4fab3dc511-zip-bac561.zip",
+                "reference": "1f728c926cedc5afdea53272e7b97a4fab3dc511",
+                "shasum": "91a18cb80496bd67dee0e9ee6c3595ef4afb6924"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -670,10 +691,10 @@
             ],
             "description": "A plugin to introduce global functions to a collection of WP sites",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-components/tree/3.2.1",
+                "source": "https://github.com/ministryofjustice/wp-moj-components/tree/3.2.2",
                 "issues": "https://github.com/ministryofjustice/wp-moj-components/issues"
             },
-            "time": "2020-06-30T11:26:21+00:00"
+            "time": "2020-07-02T09:16:23+00:00"
         },
         {
             "name": "ministryofjustice/wp-rewrite-media-to-s3",
@@ -1056,16 +1077,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d"
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
-                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1c302646f6efc070cd46856e600e5e0684d6b454",
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454",
                 "shasum": ""
             },
             "require": {
@@ -1077,7 +1098,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1114,20 +1135,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "7110338d81ce1cbc3e273136e4574663627037a7"
+                "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7110338d81ce1cbc3e273136e4574663627037a7",
-                "reference": "7110338d81ce1cbc3e273136e4574663627037a7",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a6977d63bf9a0ad4c65cd352709e230876f9904a",
+                "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a",
                 "shasum": ""
             },
             "require": {
@@ -1139,7 +1160,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1177,25 +1198,25 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.6.5",
+            "version": "v2.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "2e977311ffb17b2f82028a9c36824647789c6365"
+                "reference": "e1d57f62db3db00d9139078cbedf262280701479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2e977311ffb17b2f82028a9c36824647789c6365",
-                "reference": "2e977311ffb17b2f82028a9c36824647789c6365",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/e1d57f62db3db00d9139078cbedf262280701479",
+                "reference": "e1d57f62db3db00d9139078cbedf262280701479",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.9 || ^7.0 || ^8.0",
-                "symfony/polyfill-ctype": "^1.16"
+                "symfony/polyfill-ctype": "^1.17"
             },
             "require-dev": {
                 "ext-filter": "*",
@@ -1239,19 +1260,19 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-06-02T14:06:52+00:00"
+            "time": "2020-07-14T17:54:18+00:00"
         },
         {
             "name": "wpackagist-plugin/atomic-blocks",
-            "version": "2.8.4",
+            "version": "2.8.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/atomic-blocks/",
-                "reference": "tags/2.8.4"
+                "reference": "tags/2.8.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/atomic-blocks.2.8.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/atomic-blocks.2.8.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1279,15 +1300,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.1.9",
+            "version": "5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.1.9"
+                "reference": "tags/5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1297,15 +1318,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "5.5.0",
+            "version": "5.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/5.5.0"
+                "reference": "tags/5.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.5.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.6.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1315,7 +1336,7 @@
         },
         {
             "name": "wpackagist-plugin/kadence-blocks",
-            "version": "1.8.5",
+            "version": "1.8.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kadence-blocks/",
@@ -1323,7 +1344,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1590038305"
+                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1594932937"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1405,15 +1426,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "14.4.1",
+            "version": "14.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/14.4.1"
+                "reference": "tags/14.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.4.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1438,24 +1459,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-force-login/"
-        },
-        {
-            "name": "wpackagist-theme/nightingale",
-            "version": "2.1.8",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/nightingale/",
-                "reference": "2.1.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/nightingale.2.1.8.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/nightingale/"
         }
     ],
     "packages-dev": [
@@ -1513,7 +1516,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "ministryofjustice/nightingale": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
