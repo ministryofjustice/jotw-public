@@ -18,16 +18,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.146.0",
+            "version": "3.147.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3975a494888375b5bdabf21285f86b47d6e9d531"
+                "reference": "8a561a4a1645ccdd06413a4f2defe55d35e0eecc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3975a494888375b5bdabf21285f86b47d6e9d531",
-                "reference": "3975a494888375b5bdabf21285f86b47d6e9d531",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8a561a4a1645ccdd06413a4f2defe55d35e0eecc",
+                "reference": "8a561a4a1645ccdd06413a4f2defe55d35e0eecc",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-07-15T18:18:08+00:00"
+            "time": "2020-07-20T18:18:31+00:00"
         },
         {
             "name": "composer/installers",
@@ -629,12 +629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/nightingale.git",
-                "reference": "28656a493f38ac8c7d08c2ded8b60abc53a9ae59"
+                "reference": "44c8ef63afba30cc0ee797c107c80a80ddcc06cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/28656a493f38ac8c7d08c2ded8b60abc53a9ae59",
-                "reference": "28656a493f38ac8c7d08c2ded8b60abc53a9ae59",
+                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/44c8ef63afba30cc0ee797c107c80a80ddcc06cf",
+                "reference": "44c8ef63afba30cc0ee797c107c80a80ddcc06cf",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -642,7 +642,7 @@
             "support": {
                 "source": "https://github.com/ministryofjustice/nightingale/tree/master"
             },
-            "time": "2020-07-16T14:02:26+00:00"
+            "time": "2020-07-20T06:35:40+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1426,15 +1426,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "14.5",
+            "version": "14.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/14.5"
+                "reference": "tags/14.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.6.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"

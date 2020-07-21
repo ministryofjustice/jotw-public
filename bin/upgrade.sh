@@ -3,8 +3,7 @@ set -e
 
 ###
 # Build Script
-# Use this script to build theme assets,
-# and perform any other build-time tasks.
+# Use this script to upgrade theme assets.
 ##
 
 # Install PHP dependencies (WordPress, plugins, etc.)
@@ -25,6 +24,7 @@ for d in web/app/themes/*; do
     echo "***"
     cd "$d"
     npm-upgrade
+    npm install
     npm audit fix
     cd ../../../..
   fi
