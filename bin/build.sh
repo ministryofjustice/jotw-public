@@ -19,7 +19,8 @@ for d in web/app/themes/*; do
     echo "***"
     cd "$d"
     npm install
-    npm run production
+    npm run production --if-present
+    npm run build-minify --if-present
     rm -rf node_modules
     cd ../../../..
   fi

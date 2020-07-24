@@ -10,7 +10,7 @@ set -e
 composer upgrade
 
 if ! [ -x "$(command -v npm-upgrade)" ]; then
-  echo 'The command npm-upgrade is required to upgrade node packages. Install this and try again.'
+  echo 'The utility npm-upgrade is required to upgrade node packages here. Install it and try again.'
   echo 'npm i -g npm-upgrade'
   exit 1
 fi

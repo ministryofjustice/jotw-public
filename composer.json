@@ -44,8 +44,8 @@
     "ministryofjustice/wp-rewrite-media-to-s3": "*",
     "ministryofjustice/wp-moj-components": "*",
     "ministryofjustice/wp-user-roles": "*",
-    "ministryofjustice/nightingale":"dev-master"
-
+    "ministryofjustice/nightingale":"dev-master",
+    "ministryofjustice/wp-moj-blocks": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

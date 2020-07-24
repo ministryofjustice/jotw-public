@@ -41,3 +41,4 @@ web/wp-config.php
 # Composer
 vendor/*
 !vendor/.gitkeep
+web/app/db.php
