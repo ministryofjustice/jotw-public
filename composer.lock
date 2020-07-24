@@ -4,30 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f11469b497276efd84232b7659f0c0e4",
+    "content-hash": "658953e7ea5cfc129675b7b254a2b337",
     "packages": [
         {
             "name": "acf/advanced-custom-fields-pro",
-            "version": "5.8.11",
+            "version": "5.8.12",
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/acf/advanced-custom-fields-pro/acf-advanced-custom-fields-pro-5.8.11.zip",
-                "shasum": "d3d3254dfc1ff42f01645f21b82baa158cc99796"
+                "url": "https://composer.wp.dsd.io/dist/acf/advanced-custom-fields-pro/acf-advanced-custom-fields-pro-5.8.12.zip",
+                "shasum": "165d5168a76cc8b54be4a8ba3b003bdfdec6119d"
             },
             "type": "wordpress-plugin"
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.146.0",
+            "version": "3.147.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3975a494888375b5bdabf21285f86b47d6e9d531"
+                "reference": "c58688f53c730b74cec1b6cfee8d9ed5bb40d946"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3975a494888375b5bdabf21285f86b47d6e9d531",
-                "reference": "3975a494888375b5bdabf21285f86b47d6e9d531",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c58688f53c730b74cec1b6cfee8d9ed5bb40d946",
+                "reference": "c58688f53c730b74cec1b6cfee8d9ed5bb40d946",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-07-15T18:18:08+00:00"
+            "time": "2020-07-21T18:11:40+00:00"
         },
         {
             "name": "composer/installers",
@@ -629,12 +629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/nightingale.git",
-                "reference": "28656a493f38ac8c7d08c2ded8b60abc53a9ae59"
+                "reference": "44c8ef63afba30cc0ee797c107c80a80ddcc06cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/28656a493f38ac8c7d08c2ded8b60abc53a9ae59",
-                "reference": "28656a493f38ac8c7d08c2ded8b60abc53a9ae59",
+                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/44c8ef63afba30cc0ee797c107c80a80ddcc06cf",
+                "reference": "44c8ef63afba30cc0ee797c107c80a80ddcc06cf",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -642,7 +642,29 @@
             "support": {
                 "source": "https://github.com/ministryofjustice/nightingale/tree/master"
             },
-            "time": "2020-07-16T14:02:26+00:00"
+            "time": "2020-07-20T06:35:40+00:00"
+        },
+        {
+            "name": "ministryofjustice/wp-moj-blocks",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
+                "reference": "6988bf98a76bfb92b4dc39335e81e60d9f110bab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/6988bf98a76bfb92b4dc39335e81e60d9f110bab",
+                "reference": "6988bf98a76bfb92b4dc39335e81e60d9f110bab",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "Plugin for WordPress to add MOJ components to Gutenberg",
+            "support": {
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/master",
+                "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
+            },
+            "time": "2020-07-22T09:47:32+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1426,15 +1448,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "14.5",
+            "version": "14.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/14.5"
+                "reference": "tags/14.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.6.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1517,7 +1539,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ministryofjustice/nightingale": 20
+        "ministryofjustice/nightingale": 20,
+        "ministryofjustice/wp-moj-blocks": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

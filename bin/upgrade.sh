@@ -3,15 +3,14 @@ set -e
 
 ###
 # Build Script
-# Use this script to build theme assets,
-# and perform any other build-time tasks.
+# Use this script to upgrade theme assets.
 ##
 
 # Install PHP dependencies (WordPress, plugins, etc.)
 composer upgrade
 
 if ! [ -x "$(command -v npm-upgrade)" ]; then
-  echo 'The command npm-upgrade is required to upgrade node packages. Install this and try again.'
+  echo 'The utility npm-upgrade is required to upgrade node packages here. Install it and try again.'
   echo 'npm i -g npm-upgrade'
   exit 1
 fi
@@ -25,6 +24,7 @@ for d in web/app/themes/*; do
     echo "***"
     cd "$d"
     npm-upgrade
+    npm install
     npm audit fix
     cd ../../../..
   fi
