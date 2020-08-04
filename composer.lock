@@ -18,16 +18,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.147.2",
+            "version": "3.147.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c58688f53c730b74cec1b6cfee8d9ed5bb40d946"
+                "reference": "3ec07169c15bb05f587be47bf6f393df5ebf8f75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c58688f53c730b74cec1b6cfee8d9ed5bb40d946",
-                "reference": "c58688f53c730b74cec1b6cfee8d9ed5bb40d946",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3ec07169c15bb05f587be47bf6f393df5ebf8f75",
+                "reference": "3ec07169c15bb05f587be47bf6f393df5ebf8f75",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-07-21T18:11:40+00:00"
+            "time": "2020-08-03T21:12:57+00:00"
         },
         {
             "name": "composer/installers",
@@ -629,12 +629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/nightingale.git",
-                "reference": "44c8ef63afba30cc0ee797c107c80a80ddcc06cf"
+                "reference": "7405a8fa6a518a8550d2bc86c56f1bfc69340cd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/44c8ef63afba30cc0ee797c107c80a80ddcc06cf",
-                "reference": "44c8ef63afba30cc0ee797c107c80a80ddcc06cf",
+                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/7405a8fa6a518a8550d2bc86c56f1bfc69340cd5",
+                "reference": "7405a8fa6a518a8550d2bc86c56f1bfc69340cd5",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -642,7 +642,7 @@
             "support": {
                 "source": "https://github.com/ministryofjustice/nightingale/tree/master"
             },
-            "time": "2020-07-20T06:35:40+00:00"
+            "time": "2020-07-31T11:49:57+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -650,12 +650,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "6988bf98a76bfb92b4dc39335e81e60d9f110bab"
+                "reference": "605b4b6313cc98b69a638c579acf66e20931b711"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/6988bf98a76bfb92b4dc39335e81e60d9f110bab",
-                "reference": "6988bf98a76bfb92b4dc39335e81e60d9f110bab",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/605b4b6313cc98b69a638c579acf66e20931b711",
+                "reference": "605b4b6313cc98b69a638c579acf66e20931b711",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -664,7 +664,7 @@
                 "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/master",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2020-07-22T09:47:32+00:00"
+            "time": "2020-08-04T12:01:46+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -793,25 +793,25 @@
         },
         {
             "name": "mtdowling/jmespath.php",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jmespath/jmespath.php.git",
-                "reference": "52168cb9472de06979613d365c7f1ab8798be895"
+                "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/52168cb9472de06979613d365c7f1ab8798be895",
-                "reference": "52168cb9472de06979613d365c7f1ab8798be895",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/42dae2cbd13154083ca6d70099692fef8ca84bfb",
+                "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0",
-                "symfony/polyfill-mbstring": "^1.4"
+                "php": "^5.4 || ^7.0 || ^8.0",
+                "symfony/polyfill-mbstring": "^1.17"
             },
             "require-dev": {
-                "composer/xdebug-handler": "^1.2",
-                "phpunit/phpunit": "^4.8.36|^7.5.15"
+                "composer/xdebug-handler": "^1.4",
+                "phpunit/phpunit": "^4.8.36 || ^7.5.15"
             },
             "bin": [
                 "bin/jp.php"
@@ -819,7 +819,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -846,7 +846,7 @@
                 "json",
                 "jsonpath"
             ],
-            "time": "2019-12-30T18:03:34+00:00"
+            "time": "2020-07-31T21:01:56+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1099,7 +1099,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -1161,7 +1161,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -1358,7 +1358,7 @@
         },
         {
             "name": "wpackagist-plugin/kadence-blocks",
-            "version": "1.8.9",
+            "version": "1.8.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kadence-blocks/",
@@ -1366,7 +1366,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1594932937"
+                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1596347461"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1394,15 +1394,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.6.0",
+            "version": "3.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.6.0"
+                "reference": "tags/3.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.6.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
