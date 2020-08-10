@@ -5,7 +5,7 @@ A multisite installation for MoJ JOTW websites
 ## Features
 
 - Based on [roots/bedrock](https://roots.io/bedrock)
-- Dependency management with [Composer](https://getcomposer.org)
+- Dependency Management with [Composer](https://getcomposer.org)
 - Enhanced password hashing using bcrypt
 - Builds into a docker image
 - Docker-compose is used to run as a local development server
