@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.147.14",
+            "version": "3.148.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2ac5757aee4333c382c222880a51bd56930dafc4"
+                "reference": "56caf889ddc8dcc5b6999c234998f3b945d787e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2ac5757aee4333c382c222880a51bd56930dafc4",
-                "reference": "2ac5757aee4333c382c222880a51bd56930dafc4",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/56caf889ddc8dcc5b6999c234998f3b945d787e3",
+                "reference": "56caf889ddc8dcc5b6999c234998f3b945d787e3",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-08-06T18:18:37+00:00"
+            "time": "2020-08-10T18:14:21+00:00"
         },
         {
             "name": "composer/installers",
@@ -640,12 +640,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "2c593c202ddb0fab7aaf656e9495e2a1c127ab01"
+                "reference": "eec3c5f316f403bf64d29521b253597ea9d8bfe2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/2c593c202ddb0fab7aaf656e9495e2a1c127ab01",
-                "reference": "2c593c202ddb0fab7aaf656e9495e2a1c127ab01",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/eec3c5f316f403bf64d29521b253597ea9d8bfe2",
+                "reference": "eec3c5f316f403bf64d29521b253597ea9d8bfe2",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -654,7 +654,7 @@
                 "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/master",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2020-08-07T15:34:44+00:00"
+            "time": "2020-08-11T11:49:14+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1358,16 +1358,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.5",
+            "version": "3.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6"
+                "reference": "e97627871a7eab2f70e59166072a6b767d5834e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
-                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/e97627871a7eab2f70e59166072a6b767d5834e0",
+                "reference": "e97627871a7eab2f70e59166072a6b767d5834e0",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1405,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-04-17T01:09:41+00:00"
+            "time": "2020-08-10T04:50:15+00:00"
         }
     ],
     "aliases": [],
