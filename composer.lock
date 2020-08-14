@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.148.1",
+            "version": "3.149.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "56caf889ddc8dcc5b6999c234998f3b945d787e3"
+                "reference": "0ab4ac60f94d53d55f2c7374deb75d9a58961970"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/56caf889ddc8dcc5b6999c234998f3b945d787e3",
-                "reference": "56caf889ddc8dcc5b6999c234998f3b945d787e3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0ab4ac60f94d53d55f2c7374deb75d9a58961970",
+                "reference": "0ab4ac60f94d53d55f2c7374deb75d9a58961970",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-08-10T18:14:21+00:00"
+            "time": "2020-08-13T18:10:50+00:00"
         },
         {
             "name": "composer/installers",
@@ -423,20 +423,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.4.2",
+            "version": "5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "18c41a328193d6f7425a3cea4e01faa220e90218"
+                "reference": "d8a952dd4aa7f7d4d8be6fa145840fde4e248450"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/18c41a328193d6f7425a3cea4e01faa220e90218",
-                "reference": "18c41a328193d6f7425a3cea4e01faa220e90218",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/d8a952dd4aa7f7d4d8be6fa145840fde4e248450",
+                "reference": "d8a952dd4aa7f7d4d8be6fa145840fde4e248450",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.4.2",
+                "johnpbloch/wordpress-core": "5.5.0",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -458,20 +458,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2020-06-10T22:05:43+00:00"
+            "time": "2020-08-11T18:47:19+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.4.2",
+            "version": "5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "3e67d8b6ee6c11e8ce404da4627117fb7fbf9266"
+                "reference": "c49d46de4e4c8972b8ed2aebe3e850f4f218186f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/3e67d8b6ee6c11e8ce404da4627117fb7fbf9266",
-                "reference": "3e67d8b6ee6c11e8ce404da4627117fb7fbf9266",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/c49d46de4e4c8972b8ed2aebe3e850f4f218186f",
+                "reference": "c49d46de4e4c8972b8ed2aebe3e850f4f218186f",
                 "shasum": ""
             },
             "require": {
@@ -479,7 +479,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.4.2"
+                "wordpress/core-implementation": "5.5.0"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -499,7 +499,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2020-06-10T22:05:38+00:00"
+            "time": "2020-08-11T18:47:13+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -553,10 +553,10 @@
         },
         {
             "name": "koodimonni-language/core-en_gb",
-            "version": "5.4.2",
+            "version": "5.5",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/5.4.2/en_GB.zip"
+                "url": "https://downloads.wordpress.org/translation/core/5.5/en_GB.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/nightingale.git",
-                "reference": "2ffb9ff0f721f6ca74605687be01b6b7566c10f9"
+                "reference": "f7234b02152c078bde5324f430c02540064705df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/2ffb9ff0f721f6ca74605687be01b6b7566c10f9",
-                "reference": "2ffb9ff0f721f6ca74605687be01b6b7566c10f9",
+                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/f7234b02152c078bde5324f430c02540064705df",
+                "reference": "f7234b02152c078bde5324f430c02540064705df",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -632,7 +632,7 @@
             "support": {
                 "source": "https://github.com/ministryofjustice/nightingale/tree/master"
             },
-            "time": "2020-08-05T10:49:57+00:00"
+            "time": "2020-08-14T08:12:48+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -640,12 +640,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "eec3c5f316f403bf64d29521b253597ea9d8bfe2"
+                "reference": "5243202440cc3d70186aba3df989e83e04367e22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/eec3c5f316f403bf64d29521b253597ea9d8bfe2",
-                "reference": "eec3c5f316f403bf64d29521b253597ea9d8bfe2",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/5243202440cc3d70186aba3df989e83e04367e22",
+                "reference": "5243202440cc3d70186aba3df989e83e04367e22",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -654,21 +654,21 @@
                 "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/master",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2020-08-11T11:49:14+00:00"
+            "time": "2020-08-14T10:41:13+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
-            "version": "3.2.2",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-components.git",
-                "reference": "1f728c926cedc5afdea53272e7b97a4fab3dc511"
+                "reference": "eb02ac872fbb3c4823e69d1e00b8517a02715c35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-components/ministryofjustice-wp-moj-components-1f728c926cedc5afdea53272e7b97a4fab3dc511-zip-bac561.zip",
-                "reference": "1f728c926cedc5afdea53272e7b97a4fab3dc511",
-                "shasum": "91a18cb80496bd67dee0e9ee6c3595ef4afb6924"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-components/ministryofjustice-wp-moj-components-eb02ac872fbb3c4823e69d1e00b8517a02715c35-zip-3eaefe.zip",
+                "reference": "eb02ac872fbb3c4823e69d1e00b8517a02715c35",
+                "shasum": "26d5deec51f5d43910142db369eaeac081a8c23b"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -703,10 +703,10 @@
             ],
             "description": "A plugin to introduce global functions to a collection of WP sites",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-components/tree/3.2.2",
+                "source": "https://github.com/ministryofjustice/wp-moj-components/tree/3.3.0",
                 "issues": "https://github.com/ministryofjustice/wp-moj-components/issues"
             },
-            "time": "2020-07-02T09:16:23+00:00"
+            "time": "2020-08-14T08:36:45+00:00"
         },
         {
             "name": "ministryofjustice/wp-rewrite-media-to-s3",
@@ -1284,15 +1284,15 @@
         },
         {
             "name": "wpackagist-plugin/nhsblocks",
-            "version": "1.1.6",
+            "version": "1.1.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/nhsblocks/",
-                "reference": "tags/1.1.6"
+                "reference": "tags/1.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/nhsblocks.1.1.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/nhsblocks.1.1.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
