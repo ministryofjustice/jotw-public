@@ -4,20 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28676e7268443a89058530ef2c32c64f",
+    "content-hash": "f943ccf6b1253392e20a3589b7cbb964",
     "packages": [
         {
+            "name": "acf/advanced-custom-fields-pro",
+            "version": "5.8.12",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.wp.dsd.io/dist/acf/advanced-custom-fields-pro/acf-advanced-custom-fields-pro-5.8.12.zip",
+                "shasum": "165d5168a76cc8b54be4a8ba3b003bdfdec6119d"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "aws/aws-sdk-php",
-            "version": "3.149.0",
+            "version": "3.149.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0ab4ac60f94d53d55f2c7374deb75d9a58961970"
+                "reference": "e8a0d608e8379ad8b283812064136229ba2c1d11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0ab4ac60f94d53d55f2c7374deb75d9a58961970",
-                "reference": "0ab4ac60f94d53d55f2c7374deb75d9a58961970",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e8a0d608e8379ad8b283812064136229ba2c1d11",
+                "reference": "e8a0d608e8379ad8b283812064136229ba2c1d11",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +99,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-08-13T18:10:50+00:00"
+            "time": "2020-08-17T18:11:59+00:00"
         },
         {
             "name": "composer/installers",
@@ -619,12 +629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/nightingale.git",
-                "reference": "f7234b02152c078bde5324f430c02540064705df"
+                "reference": "c574feada65726daaf38a5e511dce898cf48a0c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/f7234b02152c078bde5324f430c02540064705df",
-                "reference": "f7234b02152c078bde5324f430c02540064705df",
+                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/c574feada65726daaf38a5e511dce898cf48a0c3",
+                "reference": "c574feada65726daaf38a5e511dce898cf48a0c3",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -632,7 +642,7 @@
             "support": {
                 "source": "https://github.com/ministryofjustice/nightingale/tree/master"
             },
-            "time": "2020-08-14T08:12:48+00:00"
+            "time": "2020-08-18T10:42:12+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -640,12 +650,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "5243202440cc3d70186aba3df989e83e04367e22"
+                "reference": "30d74a5b684ff073ab61ccdc79db656a11a40da4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/5243202440cc3d70186aba3df989e83e04367e22",
-                "reference": "5243202440cc3d70186aba3df989e83e04367e22",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/30d74a5b684ff073ab61ccdc79db656a11a40da4",
+                "reference": "30d74a5b684ff073ab61ccdc79db656a11a40da4",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -654,21 +664,21 @@
                 "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/master",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2020-08-14T10:41:13+00:00"
+            "time": "2020-08-17T14:45:00+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
-            "version": "3.3.0",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-components.git",
-                "reference": "eb02ac872fbb3c4823e69d1e00b8517a02715c35"
+                "reference": "56fc4277f7a42a61563951450ff3a486ffcf184d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-components/ministryofjustice-wp-moj-components-eb02ac872fbb3c4823e69d1e00b8517a02715c35-zip-3eaefe.zip",
-                "reference": "eb02ac872fbb3c4823e69d1e00b8517a02715c35",
-                "shasum": "26d5deec51f5d43910142db369eaeac081a8c23b"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-components/ministryofjustice-wp-moj-components-56fc4277f7a42a61563951450ff3a486ffcf184d-zip-bc6109.zip",
+                "reference": "56fc4277f7a42a61563951450ff3a486ffcf184d",
+                "shasum": "fe8fc116767f57e3c36265e8a2f889e9b2f29b53"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -703,10 +713,10 @@
             ],
             "description": "A plugin to introduce global functions to a collection of WP sites",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-components/tree/3.3.0",
+                "source": "https://github.com/ministryofjustice/wp-moj-components/tree/3.3.1",
                 "issues": "https://github.com/ministryofjustice/wp-moj-components/issues"
             },
-            "time": "2020-08-14T08:36:45+00:00"
+            "time": "2020-08-14T13:39:13+00:00"
         },
         {
             "name": "ministryofjustice/wp-rewrite-media-to-s3",
@@ -744,17 +754,17 @@
         },
         {
             "name": "ministryofjustice/wp-user-roles",
-            "version": "0.2.4",
+            "version": "0.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-user-roles.git",
-                "reference": "d4c48b705e5cb6fbebff61acb78b98fa7db295ee"
+                "reference": "62d7d2220e65e59cb200f243d36d18cf0ff84429"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-user-roles/ministryofjustice-wp-user-roles-d4c48b705e5cb6fbebff61acb78b98fa7db295ee-zip-49746c.zip",
-                "reference": "d4c48b705e5cb6fbebff61acb78b98fa7db295ee",
-                "shasum": "6c996440801f2a8526c8d7935751236f5d4fecf2"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-user-roles/ministryofjustice-wp-user-roles-62d7d2220e65e59cb200f243d36d18cf0ff84429-zip-e5f1b4.zip",
+                "reference": "62d7d2220e65e59cb200f243d36d18cf0ff84429",
+                "shasum": "4b4891c9e35010f335e4d6fcc26d9b00ce9627a5"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -776,10 +786,10 @@
             ],
             "description": "A WordPress plugin to create user roles typically required by a MOJDigital WordPress site",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-user-roles/tree/0.2.4",
+                "source": "https://github.com/ministryofjustice/wp-user-roles/tree/0.2.5",
                 "issues": "https://github.com/ministryofjustice/wp-user-roles/issues"
             },
-            "time": "2019-07-01T17:37:43+00:00"
+            "time": "2020-08-18T12:36:32+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -1283,22 +1293,22 @@
             "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
         },
         {
-            "name": "wpackagist-plugin/nhsblocks",
-            "version": "1.1.7",
+            "name": "wpackagist-plugin/safe-svg",
+            "version": "1.9.9",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/nhsblocks/",
-                "reference": "tags/1.1.7"
+                "url": "https://plugins.svn.wordpress.org/safe-svg/",
+                "reference": "tags/1.9.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/nhsblocks.1.1.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.1.9.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/nhsblocks/"
+            "homepage": "https://wordpress.org/plugins/safe-svg/"
         },
         {
             "name": "wpackagist-plugin/simple-301-redirects",
@@ -1335,6 +1345,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/unconfirmed/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "14.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/14.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.8.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wp-force-login",
