@@ -13,10 +13,10 @@ insert_final_newline = true
 [*.php]
 indent_size = 4
 
-[Makefile]
+[*.sh]
 indent_style = tab
 indent_size = 4
 
-[*.sh]
+[Makefile]
 indent_style = tab
 indent_size = 4
