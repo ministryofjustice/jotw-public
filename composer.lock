@@ -4,18 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f943ccf6b1253392e20a3589b7cbb964",
+    "content-hash": "e369d13bb0ec8743d6f43cc8cdded9c5",
     "packages": [
-        {
-            "name": "acf/advanced-custom-fields-pro",
-            "version": "5.8.12",
-            "dist": {
-                "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/acf/advanced-custom-fields-pro/acf-advanced-custom-fields-pro-5.8.12.zip",
-                "shasum": "165d5168a76cc8b54be4a8ba3b003bdfdec6119d"
-            },
-            "type": "wordpress-plugin"
-        },
         {
             "name": "aws/aws-sdk-php",
             "version": "3.149.2",
