@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.149.2",
+            "version": "3.150.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e8a0d608e8379ad8b283812064136229ba2c1d11"
+                "reference": "f0fd46027ca2e12851ae792d20513cb81b17bc32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e8a0d608e8379ad8b283812064136229ba2c1d11",
-                "reference": "e8a0d608e8379ad8b283812064136229ba2c1d11",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f0fd46027ca2e12851ae792d20513cb81b17bc32",
+                "reference": "f0fd46027ca2e12851ae792d20513cb81b17bc32",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-08-17T18:11:59+00:00"
+            "time": "2020-08-18T18:14:47+00:00"
         },
         {
             "name": "composer/installers",
@@ -640,12 +640,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "d3b261a395ac410be514f87088ec4d08b1e16607"
+                "reference": "0287862740701c131071ff63f5e7dd72e3ef61c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/d3b261a395ac410be514f87088ec4d08b1e16607",
-                "reference": "d3b261a395ac410be514f87088ec4d08b1e16607",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/0287862740701c131071ff63f5e7dd72e3ef61c3",
+                "reference": "0287862740701c131071ff63f5e7dd72e3ef61c3",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -654,7 +654,7 @@
                 "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/master",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2020-08-18T17:28:55+00:00"
+            "time": "2020-08-19T10:25:16+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1266,15 +1266,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "5.6.2",
+            "version": "5.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/5.6.2"
+                "reference": "tags/5.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.6.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.7.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
