@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.150.1",
+            "version": "3.150.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d59b85d6854e58154e22a796322ba153ef69ade2"
+                "reference": "1aef7e270f15347df82279f05d85f551f85c8b87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d59b85d6854e58154e22a796322ba153ef69ade2",
-                "reference": "d59b85d6854e58154e22a796322ba153ef69ade2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1aef7e270f15347df82279f05d85f551f85c8b87",
+                "reference": "1aef7e270f15347df82279f05d85f551f85c8b87",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-08-19T18:19:07+00:00"
+            "time": "2020-08-20T18:12:35+00:00"
         },
         {
             "name": "composer/installers",
@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/nightingale.git",
-                "reference": "3461e56977d23f6dbdd6079b9921265f5b27b65a"
+                "reference": "84f8b4ce4054c46f32c9ee3059bffca6ed146c64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/3461e56977d23f6dbdd6079b9921265f5b27b65a",
-                "reference": "3461e56977d23f6dbdd6079b9921265f5b27b65a",
+                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/84f8b4ce4054c46f32c9ee3059bffca6ed146c64",
+                "reference": "84f8b4ce4054c46f32c9ee3059bffca6ed146c64",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -632,7 +632,7 @@
             "support": {
                 "source": "https://github.com/ministryofjustice/nightingale/tree/master"
             },
-            "time": "2020-08-20T11:11:44+00:00"
+            "time": "2020-08-24T07:43:25+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
