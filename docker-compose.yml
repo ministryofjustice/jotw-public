@@ -17,7 +17,6 @@ services:
       DB_USER: wordpress
       DB_PASSWORD: wordpress
       DB_HOST: mysql
-      DB_PREFIX: moj_
     depends_on:
       - mysql
       - mailcatcher
