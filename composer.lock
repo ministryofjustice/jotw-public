@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.150.2",
+            "version": "3.151.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1aef7e270f15347df82279f05d85f551f85c8b87"
+                "reference": "5b9afeff4f6234dd6182c88cd6387296743e478a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1aef7e270f15347df82279f05d85f551f85c8b87",
-                "reference": "1aef7e270f15347df82279f05d85f551f85c8b87",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5b9afeff4f6234dd6182c88cd6387296743e478a",
+                "reference": "5b9afeff4f6234dd6182c88cd6387296743e478a",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-08-20T18:12:35+00:00"
+            "time": "2020-08-27T18:13:21+00:00"
         },
         {
             "name": "composer/installers",
@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/nightingale.git",
-                "reference": "84f8b4ce4054c46f32c9ee3059bffca6ed146c64"
+                "reference": "da344bcd68dd952fcf443434f9d0343b09a40489"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/84f8b4ce4054c46f32c9ee3059bffca6ed146c64",
-                "reference": "84f8b4ce4054c46f32c9ee3059bffca6ed146c64",
+                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/da344bcd68dd952fcf443434f9d0343b09a40489",
+                "reference": "da344bcd68dd952fcf443434f9d0343b09a40489",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -632,7 +632,7 @@
             "support": {
                 "source": "https://github.com/ministryofjustice/nightingale/tree/master"
             },
-            "time": "2020-08-24T07:43:25+00:00"
+            "time": "2020-08-28T15:43:54+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -640,12 +640,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "235db7387d9cdca61c9f4be5f46353e64edacfa4"
+                "reference": "71cb5005695e0ec38f2c7913234bc43567e2ea1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/235db7387d9cdca61c9f4be5f46353e64edacfa4",
-                "reference": "235db7387d9cdca61c9f4be5f46353e64edacfa4",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/71cb5005695e0ec38f2c7913234bc43567e2ea1f",
+                "reference": "71cb5005695e0ec38f2c7913234bc43567e2ea1f",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -654,7 +654,7 @@
                 "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/master",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2020-08-20T12:49:30+00:00"
+            "time": "2020-08-28T15:20:21+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1338,15 +1338,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "14.8",
+            "version": "14.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/14.8"
+                "reference": "tags/14.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.8.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
