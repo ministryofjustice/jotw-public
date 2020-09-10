@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e369d13bb0ec8743d6f43cc8cdded9c5",
+    "content-hash": "acbaafad5e3d742537c9c77cf5ac55c6",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.152.1",
+            "version": "3.153.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "65e10d45a3ecfdc112b7efe9f839343179a86879"
+                "reference": "3045bc6c8f7d2521b3e0d4a7b407194af8725c8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/65e10d45a3ecfdc112b7efe9f839343179a86879",
-                "reference": "65e10d45a3ecfdc112b7efe9f839343179a86879",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3045bc6c8f7d2521b3e0d4a7b407194af8725c8f",
+                "reference": "3045bc6c8f7d2521b3e0d4a7b407194af8725c8f",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-09-08T18:13:04+00:00"
+            "time": "2020-09-09T18:12:35+00:00"
         },
         {
             "name": "composer/installers",
@@ -614,6 +614,31 @@
             "time": "2018-02-04T10:52:01+00:00"
         },
         {
+            "name": "ministryofjustice/cookie-compliance-for-wordpress",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
+                "reference": "dd7f44c671266c63266a8c15d39074efe0feb780"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/dd7f44c671266c63266a8c15d39074efe0feb780",
+                "reference": "dd7f44c671266c63266a8c15d39074efe0feb780",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "description": "WP plugin that presents visitor with a cookie consent banner and opt-in setting page.",
+            "support": {
+                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/master",
+                "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
+            },
+            "time": "2020-09-10T15:50:14+00:00"
+        },
+        {
             "name": "ministryofjustice/nightingale",
             "version": "dev-master",
             "source": {
@@ -640,12 +665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "71cb5005695e0ec38f2c7913234bc43567e2ea1f"
+                "reference": "8ee944ecee099ea10ba3a9418da5056658d87880"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/71cb5005695e0ec38f2c7913234bc43567e2ea1f",
-                "reference": "71cb5005695e0ec38f2c7913234bc43567e2ea1f",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/8ee944ecee099ea10ba3a9418da5056658d87880",
+                "reference": "8ee944ecee099ea10ba3a9418da5056658d87880",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -654,7 +679,7 @@
                 "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/master",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2020-08-28T15:20:21+00:00"
+            "time": "2020-09-09T15:06:56+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1430,6 +1455,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "ministryofjustice/nightingale": 20,
+        "ministryofjustice/cookie-compliance-for-wordpress": 20,
         "ministryofjustice/wp-moj-blocks": 20
     },
     "prefer-stable": false,

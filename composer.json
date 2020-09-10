@@ -38,6 +38,7 @@
     "ministryofjustice/wp-moj-components": "*",
     "ministryofjustice/wp-user-roles": "*",
     "ministryofjustice/nightingale":"dev-master",
+    "ministryofjustice/cookie-compliance-for-wordpress": "dev-master",
     "ministryofjustice/wp-moj-blocks": "dev-master"
   },
   "require-dev": {
