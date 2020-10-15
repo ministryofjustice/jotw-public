@@ -644,12 +644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/nightingale.git",
-                "reference": "612ad322356e2aa8a42021b8adb2198da62ecddf"
+                "reference": "c4340bc106be8cbdbe8fb1c386a3ec45a720a0bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/612ad322356e2aa8a42021b8adb2198da62ecddf",
-                "reference": "612ad322356e2aa8a42021b8adb2198da62ecddf",
+                "url": "https://api.github.com/repos/ministryofjustice/nightingale/zipball/c4340bc106be8cbdbe8fb1c386a3ec45a720a0bb",
+                "reference": "c4340bc106be8cbdbe8fb1c386a3ec45a720a0bb",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -657,7 +657,7 @@
             "support": {
                 "source": "https://github.com/ministryofjustice/nightingale/tree/master"
             },
-            "time": "2020-10-14T09:34:11+00:00"
+            "time": "2020-10-15T13:50:10+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
