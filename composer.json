@@ -38,6 +38,7 @@
     "ministryofjustice/wp-moj-components": "*",
     "ministryofjustice/wp-user-roles": "*",
     "ministryofjustice/nightingale":"dev-master",
+    "ministryofjustice/wp-hale":"dev-main",
     "ministryofjustice/cookie-compliance-for-wordpress": "dev-master",
     "ministryofjustice/wp-moj-blocks": "dev-master"
   },
@@ -48,6 +49,7 @@
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "ministryofjustice/wp-user-roles"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/hale/": ["ministryofjustice/wp-hale"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "dropin-paths": {
