@@ -35,6 +35,7 @@
     "wpackagist-plugin/wp-force-login": "*",
     "wpackagist-plugin/safe-svg":"*",
     "ministryofjustice/wp-rewrite-media-to-s3": "*",
+    "relevanssi/relevanssi-premium": "*",
     "ministryofjustice/wp-moj-components": "*",
     "ministryofjustice/wp-user-roles": "*",
     "ministryofjustice/nightingale":"dev-master",
