@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.158.8",
+            "version": "3.158.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "6f68f8f3b459166e96e2ba46cd720668f14255e2"
+                "reference": "cdf3c097a606087654ac90ea1ffb8f3e86c423be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6f68f8f3b459166e96e2ba46cd720668f14255e2",
-                "reference": "6f68f8f3b459166e96e2ba46cd720668f14255e2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cdf3c097a606087654ac90ea1ffb8f3e86c423be",
+                "reference": "cdf3c097a606087654ac90ea1ffb8f3e86c423be",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-10-16T18:15:17+00:00"
+            "time": "2020-10-21T18:12:19+00:00"
         },
         {
             "name": "composer/installers",
@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "18474864dda4a2c879c6113b1c521f9a48520c71"
+                "reference": "099e2944ecfe0d54a43d86b3a039263eb6ea9eca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/18474864dda4a2c879c6113b1c521f9a48520c71",
-                "reference": "18474864dda4a2c879c6113b1c521f9a48520c71",
+                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/099e2944ecfe0d54a43d86b3a039263eb6ea9eca",
+                "reference": "099e2944ecfe0d54a43d86b3a039263eb6ea9eca",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -636,7 +636,7 @@
                 "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/master",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2020-10-15T10:53:03+00:00"
+            "time": "2020-10-19T17:01:06+00:00"
         },
         {
             "name": "ministryofjustice/nightingale",
@@ -665,12 +665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "8149550e483d7bad2c40e0679730fcf189d2d6ea"
+                "reference": "32fa1c8b160379a859c6a46b80c4b555cc1683b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/8149550e483d7bad2c40e0679730fcf189d2d6ea",
-                "reference": "8149550e483d7bad2c40e0679730fcf189d2d6ea",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/32fa1c8b160379a859c6a46b80c4b555cc1683b9",
+                "reference": "32fa1c8b160379a859c6a46b80c4b555cc1683b9",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -679,7 +679,7 @@
                 "source": "https://github.com/ministryofjustice/wp-hale/tree/main",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2020-10-19T12:58:41+00:00"
+            "time": "2020-10-22T10:14:52+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1323,15 +1323,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "5.7.1",
+            "version": "5.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/5.7.1"
+                "reference": "tags/5.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.8.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
