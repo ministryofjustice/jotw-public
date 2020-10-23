@@ -665,12 +665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "698af5d05cc11a2b89d7f3f3d2a775e09ca4157e"
+                "reference": "e0ef118d9ec2a6a64cec1ff8f9cafb75130a630f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/698af5d05cc11a2b89d7f3f3d2a775e09ca4157e",
-                "reference": "698af5d05cc11a2b89d7f3f3d2a775e09ca4157e",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/e0ef118d9ec2a6a64cec1ff8f9cafb75130a630f",
+                "reference": "e0ef118d9ec2a6a64cec1ff8f9cafb75130a630f",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -679,7 +679,7 @@
                 "source": "https://github.com/ministryofjustice/wp-hale/tree/main",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2020-10-23T12:41:23+00:00"
+            "time": "2020-10-23T15:58:34+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -687,12 +687,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "4260183e417d7da9c48ff68e21b5be88c0165d09"
+                "reference": "77d51a9b9cd4153e35ebe2b3d46a14cab0a178f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/4260183e417d7da9c48ff68e21b5be88c0165d09",
-                "reference": "4260183e417d7da9c48ff68e21b5be88c0165d09",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/77d51a9b9cd4153e35ebe2b3d46a14cab0a178f4",
+                "reference": "77d51a9b9cd4153e35ebe2b3d46a14cab0a178f4",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -701,7 +701,7 @@
                 "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/master",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2020-10-23T12:42:58+00:00"
+            "time": "2020-10-23T15:58:34+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
