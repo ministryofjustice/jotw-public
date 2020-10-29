@@ -41,7 +41,7 @@
     "ministryofjustice/nightingale":"dev-master",
     "ministryofjustice/wp-hale":"dev-main",
     "ministryofjustice/cookie-compliance-for-wordpress": "dev-master",
-    "ministryofjustice/wp-moj-blocks": "dev-master"
+    "ministryofjustice/wp-moj-blocks": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

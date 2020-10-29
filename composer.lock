@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0038502f73e3aee3747b5ae1e994928a",
+    "content-hash": "8712f1b947274cdf822796f5c32cd932",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.158.13",
+            "version": "3.158.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4d81b3f456435c30a4f9c71852164b6b46dc4d97"
+                "reference": "6e8fc20ff7bc21b28e80815a9818b6ca7928ae3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4d81b3f456435c30a4f9c71852164b6b46dc4d97",
-                "reference": "4d81b3f456435c30a4f9c71852164b6b46dc4d97",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6e8fc20ff7bc21b28e80815a9818b6ca7928ae3a",
+                "reference": "6e8fc20ff7bc21b28e80815a9818b6ca7928ae3a",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-10-23T18:11:41+00:00"
+            "time": "2020-10-28T20:19:05+00:00"
         },
         {
             "name": "composer/installers",
@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "a1457d82e35ac8b2e8899e80a9a286504e8abcba"
+                "reference": "e626eb6a00652464bfe7d3f23e0a84a0d79e277f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/a1457d82e35ac8b2e8899e80a9a286504e8abcba",
-                "reference": "a1457d82e35ac8b2e8899e80a9a286504e8abcba",
+                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/e626eb6a00652464bfe7d3f23e0a84a0d79e277f",
+                "reference": "e626eb6a00652464bfe7d3f23e0a84a0d79e277f",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -636,7 +636,7 @@
                 "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/master",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2020-10-23T19:27:40+00:00"
+            "time": "2020-10-28T18:19:59+00:00"
         },
         {
             "name": "ministryofjustice/nightingale",
@@ -665,12 +665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "cb5f838964517fa44cb1de0428e052521d68bd04"
+                "reference": "73ee6d9ba387467e828f19faf84d11b9ceea1f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/cb5f838964517fa44cb1de0428e052521d68bd04",
-                "reference": "cb5f838964517fa44cb1de0428e052521d68bd04",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/73ee6d9ba387467e828f19faf84d11b9ceea1f17",
+                "reference": "73ee6d9ba387467e828f19faf84d11b9ceea1f17",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -679,29 +679,29 @@
                 "source": "https://github.com/ministryofjustice/wp-hale/tree/main",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2020-10-23T19:16:02+00:00"
+            "time": "2020-10-29T14:06:27+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
-            "version": "dev-master",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "77d51a9b9cd4153e35ebe2b3d46a14cab0a178f4"
+                "reference": "0debac50a887211d60e69d409bbd93b6b08f1263"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/77d51a9b9cd4153e35ebe2b3d46a14cab0a178f4",
-                "reference": "77d51a9b9cd4153e35ebe2b3d46a14cab0a178f4",
-                "shasum": ""
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-0debac50a887211d60e69d409bbd93b6b08f1263-zip-8eed13.zip",
+                "reference": "0debac50a887211d60e69d409bbd93b6b08f1263",
+                "shasum": "cd292b38ebe9b97f2870e26e2a703ccaada0f49a"
             },
             "type": "wordpress-plugin",
             "description": "Plugin for WordPress to add MOJ components to Gutenberg",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/master",
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/1.1.0",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2020-10-23T15:58:34+00:00"
+            "time": "2020-10-29T14:32:58+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1194,6 +1194,20 @@
                 "polyfill",
                 "portable"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-10-23T14:02:19+00:00"
         },
         {
@@ -1256,6 +1270,20 @@
                 "polyfill",
                 "portable",
                 "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-10-23T14:02:19+00:00"
         },
@@ -1395,15 +1423,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "15.1.1",
+            "version": "15.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/15.1.1"
+                "reference": "tags/15.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1488,13 +1516,13 @@
     "stability-flags": {
         "ministryofjustice/nightingale": 20,
         "ministryofjustice/wp-hale": 20,
-        "ministryofjustice/cookie-compliance-for-wordpress": 20,
-        "ministryofjustice/wp-moj-blocks": 20
+        "ministryofjustice/cookie-compliance-for-wordpress": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.1"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
