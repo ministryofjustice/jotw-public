@@ -38,7 +38,6 @@
     "relevanssi/relevanssi-premium": "*",
     "ministryofjustice/wp-moj-components": "*",
     "ministryofjustice/wp-user-roles": "*",
-    "ministryofjustice/nightingale":"dev-master",
     "ministryofjustice/wp-hale":"dev-main",
     "ministryofjustice/cookie-compliance-for-wordpress": "dev-master",
     "ministryofjustice/wp-moj-blocks": "*"
