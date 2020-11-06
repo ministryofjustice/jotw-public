@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7997a7a2fa71014b37ebee59bb49fab",
+    "content-hash": "cadf80786682bb1072605b17c7e5074a",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -640,25 +640,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "5070f92810ccc583ae62a58e7163f9b5560c44d3"
+                "reference": "882a59c2791597c35699b1b196cb4afaf3104cf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/5070f92810ccc583ae62a58e7163f9b5560c44d3",
-                "reference": "5070f92810ccc583ae62a58e7163f9b5560c44d3",
-                "shasum": ""
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-882a59c2791597c35699b1b196cb4afaf3104cf5-zip-9725c2.zip",
+                "reference": "882a59c2791597c35699b1b196cb4afaf3104cf5",
+                "shasum": "cfef3c940465307538146cb69536b97d1c875c0c"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/main",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/1.0.0",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2020-11-06T11:19:35+00:00"
+            "time": "2020-11-06T11:50:18+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1465,7 +1465,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ministryofjustice/wp-hale": 20,
         "ministryofjustice/cookie-compliance-for-wordpress": 20
     },
     "prefer-stable": false,
