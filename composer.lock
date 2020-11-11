@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.158.21",
+            "version": "3.159.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a2aba95a428f9e478d08b3f8dc1a70837b46785a"
+                "reference": "41d8908c1ac53afc8b5dc68aab7a67765e366e15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a2aba95a428f9e478d08b3f8dc1a70837b46785a",
-                "reference": "a2aba95a428f9e478d08b3f8dc1a70837b46785a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/41d8908c1ac53afc8b5dc68aab7a67765e366e15",
+                "reference": "41d8908c1ac53afc8b5dc68aab7a67765e366e15",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-11-05T19:24:22+00:00"
+            "time": "2020-11-10T19:11:53+00:00"
         },
         {
             "name": "composer/installers",
@@ -640,25 +640,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "882a59c2791597c35699b1b196cb4afaf3104cf5"
+                "reference": "a5c0f020565ebd9969e154641e6b60856034fecd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-882a59c2791597c35699b1b196cb4afaf3104cf5-zip-9725c2.zip",
-                "reference": "882a59c2791597c35699b1b196cb4afaf3104cf5",
-                "shasum": "cfef3c940465307538146cb69536b97d1c875c0c"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-a5c0f020565ebd9969e154641e6b60856034fecd-zip-a926d0.zip",
+                "reference": "a5c0f020565ebd9969e154641e6b60856034fecd",
+                "shasum": "b252731a984e64b4336982d58e983d061c8ee5da"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/1.0.0",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/1.0.1",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2020-11-06T11:50:18+00:00"
+            "time": "2020-11-06T13:32:41+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1173,20 +1173,6 @@
                 "polyfill",
                 "portable"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-10-23T14:02:19+00:00"
         },
         {
@@ -1249,20 +1235,6 @@
                 "polyfill",
                 "portable",
                 "shim"
-            ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-10-23T14:02:19+00:00"
         },
@@ -1500,6 +1472,5 @@
     "platform": {
         "php": ">=7.1"
     },
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }
