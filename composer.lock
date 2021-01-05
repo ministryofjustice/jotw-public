@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cadf80786682bb1072605b17c7e5074a",
+    "content-hash": "6162fef3f984dc04e43831dc0379b0ea",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.171.10",
+            "version": "3.171.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ba12cbba6b7ae8f2aab741e5ac47e8bb30d3eac7"
+                "reference": "eeebac8f6efd141af09c44dbd9cca4f1d327ef21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ba12cbba6b7ae8f2aab741e5ac47e8bb30d3eac7",
-                "reference": "ba12cbba6b7ae8f2aab741e5ac47e8bb30d3eac7",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/eeebac8f6efd141af09c44dbd9cca4f1d327ef21",
+                "reference": "eeebac8f6efd141af09c44dbd9cca4f1d327ef21",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-12-31T19:13:37+00:00"
+            "time": "2021-01-04T19:13:09+00:00"
         },
         {
             "name": "composer/installers",
@@ -615,16 +615,16 @@
         },
         {
             "name": "ministryofjustice/cookie-compliance-for-wordpress",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "3773471ad9593ecc24e185b089e04df9013e223f"
+                "reference": "f806a7ee8d7361b67ad5fbcd5d796a1e0b861aa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/3773471ad9593ecc24e185b089e04df9013e223f",
-                "reference": "3773471ad9593ecc24e185b089e04df9013e223f",
+                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/f806a7ee8d7361b67ad5fbcd5d796a1e0b861aa5",
+                "reference": "f806a7ee8d7361b67ad5fbcd5d796a1e0b861aa5",
                 "shasum": ""
             },
             "require-dev": {
@@ -648,10 +648,10 @@
             ],
             "description": "WP plugin that presents visitor with a cookie consent banner and opt-in setting page.",
             "support": {
-                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/master",
+                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/main",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2021-01-04T11:30:36+00:00"
+            "time": "2021-01-04T14:08:58+00:00"
         },
         {
             "name": "ministryofjustice/wp-hale",
