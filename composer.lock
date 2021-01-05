@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "f806a7ee8d7361b67ad5fbcd5d796a1e0b861aa5"
+                "reference": "06a470ee3adcb1f5ba7bfd4b3fd4988a6088da2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/f806a7ee8d7361b67ad5fbcd5d796a1e0b861aa5",
-                "reference": "f806a7ee8d7361b67ad5fbcd5d796a1e0b861aa5",
+                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/06a470ee3adcb1f5ba7bfd4b3fd4988a6088da2d",
+                "reference": "06a470ee3adcb1f5ba7bfd4b3fd4988a6088da2d",
                 "shasum": ""
             },
             "require-dev": {
@@ -651,7 +651,7 @@
                 "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/main",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2021-01-04T14:08:58+00:00"
+            "time": "2021-01-05T16:50:55+00:00"
         },
         {
             "name": "ministryofjustice/wp-hale",
