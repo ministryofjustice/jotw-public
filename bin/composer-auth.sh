@@ -9,7 +9,7 @@
 # It requires the environment variables `COMPOSER_USER` and `COMPOSER_PASS` to
 # be set with authentication credentials.
 ##
-
+echo -e "Hello"
 if [ ! -z $COMPOSER_USER ] && [ ! -z $COMPOSER_PASS ]
 then
 	cat <<- EOF >> auth.json

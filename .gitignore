@@ -42,3 +42,11 @@ web/wp-config.php
 vendor/*
 !vendor/.gitkeep
 web/app/db.php
+
+#Windows
+.gitignore
+Dockerfile
+bin/composer-auth.sh
+*.bat
+docker-compose.yml
+
