@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.173.19",
+            "version": "3.173.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "63c6feca49bf4083f33bf250401c0c286759e101"
+                "reference": "5b8683170604c8db0e346e6df8fefcd8d74523fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/63c6feca49bf4083f33bf250401c0c286759e101",
-                "reference": "63c6feca49bf4083f33bf250401c0c286759e101",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5b8683170604c8db0e346e6df8fefcd8d74523fb",
+                "reference": "5b8683170604c8db0e346e6df8fefcd8d74523fb",
                 "shasum": ""
             },
             "require": {
@@ -25,9 +25,9 @@
                 "ext-pcre": "*",
                 "ext-simplexml": "*",
                 "guzzlehttp/guzzle": "^5.3.3|^6.2.1|^7.0",
-                "guzzlehttp/promises": "^1.0",
-                "guzzlehttp/psr7": "^1.4.1",
-                "mtdowling/jmespath.php": "^2.5",
+                "guzzlehttp/promises": "^1.4.0",
+                "guzzlehttp/psr7": "^1.7.0",
+                "mtdowling/jmespath.php": "^2.6",
                 "php": ">=5.5"
             },
             "require-dev": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.19"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.22"
             },
-            "time": "2021-03-01T19:15:59+00:00"
+            "time": "2021-03-04T19:16:24+00:00"
         },
         {
             "name": "composer/installers",
@@ -224,6 +224,24 @@
                 "zend",
                 "zikula"
             ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v1.10.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-14T11:07:16+00:00"
         },
         {
@@ -304,6 +322,28 @@
                 "rest",
                 "web service"
             ],
+            "support": {
+                "issues": "https://github.com/guzzle/guzzle/issues",
+                "source": "https://github.com/guzzle/guzzle/tree/7.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/alexeyshockov",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/gmponos",
+                    "type": "github"
+                }
+            ],
             "time": "2020-10-10T11:47:56+00:00"
         },
         {
@@ -355,6 +395,10 @@
             "keywords": [
                 "promise"
             ],
+            "support": {
+                "issues": "https://github.com/guzzle/promises/issues",
+                "source": "https://github.com/guzzle/promises/tree/1.4.0"
+            },
             "time": "2020-09-30T07:37:28+00:00"
         },
         {
@@ -426,6 +470,10 @@
                 "uri",
                 "url"
             ],
+            "support": {
+                "issues": "https://github.com/guzzle/psr7/issues",
+                "source": "https://github.com/guzzle/psr7/tree/1.7.0"
+            },
             "time": "2020-09-30T07:37:11+00:00"
         },
         {
@@ -465,6 +513,13 @@
                 "cms",
                 "wordpress"
             ],
+            "support": {
+                "forum": "http://wordpress.org/support/",
+                "irc": "irc://irc.freenode.net/wordpress",
+                "issues": "http://core.trac.wordpress.org/",
+                "source": "http://core.trac.wordpress.org/browser",
+                "wiki": "http://codex.wordpress.org/"
+            },
             "time": "2021-02-22T15:30:37+00:00"
         },
         {
@@ -506,6 +561,13 @@
                 "cms",
                 "wordpress"
             ],
+            "support": {
+                "forum": "https://wordpress.org/support/",
+                "irc": "irc://irc.freenode.net/wordpress",
+                "issues": "https://core.trac.wordpress.org/",
+                "source": "https://core.trac.wordpress.org/browser",
+                "wiki": "https://codex.wordpress.org/"
+            },
             "time": "2021-02-22T15:30:31+00:00"
         },
         {
@@ -556,6 +618,10 @@
             "keywords": [
                 "wordpress"
             ],
+            "support": {
+                "issues": "https://github.com/johnpbloch/wordpress-core-installer/issues",
+                "source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
+            },
             "time": "2020-04-16T21:44:57+00:00"
         },
         {
@@ -619,6 +685,10 @@
                 }
             ],
             "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
+            "support": {
+                "issues": "https://github.com/Koodimonni/Composer-Dropin-Installer/issues",
+                "source": "https://github.com/Koodimonni/Composer-Dropin-Installer/tree/master"
+            },
             "time": "2020-08-17T07:41:05+00:00"
         },
         {
@@ -685,17 +755,17 @@
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "7932739e39230d99da04aaa012b21796364be6fc"
+                "reference": "b436a74d5f68fe6ad3ef9c887562bff84bd5ec67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-7932739e39230d99da04aaa012b21796364be6fc-zip-ffc288.zip",
-                "reference": "7932739e39230d99da04aaa012b21796364be6fc",
-                "shasum": "6ec02b5507f080df77181455459b9ce39149f111"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-b436a74d5f68fe6ad3ef9c887562bff84bd5ec67-zip-3ed1e9.zip",
+                "reference": "b436a74d5f68fe6ad3ef9c887562bff84bd5ec67",
+                "shasum": "d1e1998bc8150a9034a15d6daa578db6cc8a9f7e"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -718,10 +788,10 @@
             ],
             "description": "WP plugin that adds addtional blocks.",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/1.5.0",
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/1.6.0",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2021-03-02T11:38:41+00:00"
+            "time": "2021-03-05T14:43:03+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -903,6 +973,10 @@
                 "json",
                 "jsonpath"
             ],
+            "support": {
+                "issues": "https://github.com/jmespath/jmespath.php/issues",
+                "source": "https://github.com/jmespath/jmespath.php/tree/2.6.0"
+            },
             "time": "2020-07-31T21:01:56+00:00"
         },
         {
@@ -946,6 +1020,11 @@
             "keywords": [
                 "env"
             ],
+            "support": {
+                "email": "oom@oscarotero.com",
+                "issues": "https://github.com/oscarotero/env/issues",
+                "source": "https://github.com/oscarotero/env/tree/v1.2.0"
+            },
             "time": "2019-04-03T18:28:43+00:00"
         },
         {
@@ -995,6 +1074,9 @@
                 "psr",
                 "psr-18"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-client/tree/master"
+            },
             "time": "2020-06-29T06:28:15+00:00"
         },
         {
@@ -1045,6 +1127,9 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -1085,6 +1170,10 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -1152,6 +1241,11 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
+            "support": {
+                "forum": "https://discourse.roots.io/",
+                "issues": "https://github.com/roots/wp-password-bcrypt/issues",
+                "source": "https://github.com/roots/wp-password-bcrypt/tree/master"
+            },
             "time": "2016-03-01T16:27:06+00:00"
         },
         {
@@ -1213,6 +1307,23 @@
                 "ctype",
                 "polyfill",
                 "portable"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.22.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2021-01-07T16:49:33+00:00"
         },
@@ -1277,6 +1388,23 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.22.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-22T09:19:47+00:00"
         },
         {
@@ -1338,6 +1466,20 @@
                 "dotenv",
                 "env",
                 "environment"
+            ],
+            "support": {
+                "issues": "https://github.com/vlucas/phpdotenv/issues",
+                "source": "https://github.com/vlucas/phpdotenv/tree/v2.6.7"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/vlucas/phpdotenv",
+                    "type": "tidelift"
+                }
             ],
             "time": "2021-01-20T14:39:13+00:00"
         },
@@ -1415,15 +1557,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "15.9",
+            "version": "15.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/15.9"
+                "reference": "tags/15.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.9.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1500,6 +1642,11 @@
                 "phpcs",
                 "standards"
             ],
+            "support": {
+                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
+                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
+                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
+            },
             "time": "2020-10-23T02:01:07+00:00"
         }
     ],
@@ -1511,5 +1658,6 @@
     "platform": {
         "php": ">=7.1"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
