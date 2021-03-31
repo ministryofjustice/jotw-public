@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.176.3",
+            "version": "3.176.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a4f0bbeff965f67ca4dbfccfa2865de611f14c30"
+                "reference": "7cafb35d3ef9944f542a97dde4a6bb52ad0f45d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a4f0bbeff965f67ca4dbfccfa2865de611f14c30",
-                "reference": "a4f0bbeff965f67ca4dbfccfa2865de611f14c30",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7cafb35d3ef9944f542a97dde4a6bb52ad0f45d1",
+                "reference": "7cafb35d3ef9944f542a97dde4a6bb52ad0f45d1",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.176.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.176.4"
             },
-            "time": "2021-03-29T18:16:38+00:00"
+            "time": "2021-03-30T18:17:07+00:00"
         },
         {
             "name": "composer/installers",
@@ -756,17 +756,17 @@
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "e6388ec540d05b317db84fc52511aee17a18f2e4"
+                "reference": "7bc1dd75b849ec6644bc88b4e1558c85bb32c6ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-e6388ec540d05b317db84fc52511aee17a18f2e4-zip-edc2f4.zip",
-                "reference": "e6388ec540d05b317db84fc52511aee17a18f2e4",
-                "shasum": "f817492ce3f3143a72c94ba71b99d74eff9e203c"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-7bc1dd75b849ec6644bc88b4e1558c85bb32c6ed-zip-346a7e.zip",
+                "reference": "7bc1dd75b849ec6644bc88b4e1558c85bb32c6ed",
+                "shasum": "45caafdb536df47a367ebb837cff2003ab8d2a99"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -789,10 +789,10 @@
             ],
             "description": "WP plugin that adds addtional blocks.",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/1.8.0",
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/1.9.0",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2021-03-30T11:09:11+00:00"
+            "time": "2021-03-31T11:09:44+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1179,11 +1179,11 @@
         },
         {
             "name": "relevanssi/relevanssi-premium",
-            "version": "2.9.0",
+            "version": "2.14.5",
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/relevanssi/relevanssi-premium/relevanssi-relevanssi-premium-2.9.0.zip",
-                "shasum": "5b54b3cb8316c9acf8f3558864b13658c8c52809"
+                "url": "https://composer.wp.dsd.io/dist/relevanssi/relevanssi-premium/relevanssi-relevanssi-premium-2.14.5.zip",
+                "shasum": "14b1602c453a5b56e3ae6268ef579fad1e2016e7"
             },
             "type": "wordpress-plugin"
         },
