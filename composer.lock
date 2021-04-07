@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.176.4",
+            "version": "3.176.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7cafb35d3ef9944f542a97dde4a6bb52ad0f45d1"
+                "reference": "17dc67514b148979994758fbfb54088a8a3393bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7cafb35d3ef9944f542a97dde4a6bb52ad0f45d1",
-                "reference": "7cafb35d3ef9944f542a97dde4a6bb52ad0f45d1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/17dc67514b148979994758fbfb54088a8a3393bf",
+                "reference": "17dc67514b148979994758fbfb54088a8a3393bf",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.176.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.176.9"
             },
-            "time": "2021-03-30T18:17:07+00:00"
+            "time": "2021-04-06T18:13:47+00:00"
         },
         {
             "name": "composer/installers",
@@ -756,17 +756,17 @@
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
-            "version": "1.9.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "7bc1dd75b849ec6644bc88b4e1558c85bb32c6ed"
+                "reference": "ffd8754241ede075e7305720fd21e010502562d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-7bc1dd75b849ec6644bc88b4e1558c85bb32c6ed-zip-346a7e.zip",
-                "reference": "7bc1dd75b849ec6644bc88b4e1558c85bb32c6ed",
-                "shasum": "45caafdb536df47a367ebb837cff2003ab8d2a99"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-ffd8754241ede075e7305720fd21e010502562d1-zip-b23d77.zip",
+                "reference": "ffd8754241ede075e7305720fd21e010502562d1",
+                "shasum": "b944f8b7193a7d89ebdf9c9a2a613df751a09edc"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -789,10 +789,10 @@
             ],
             "description": "WP plugin that adds addtional blocks.",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/1.9.0",
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/2.0.0",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2021-03-31T11:09:44+00:00"
+            "time": "2021-04-07T08:18:46+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1486,15 +1486,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "6.0.3",
+            "version": "6.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/6.0.3"
+                "reference": "tags/6.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.0.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.1.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1522,15 +1522,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-301-redirects",
-            "version": "1.07",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-301-redirects/",
-                "reference": "tags/1.07"
+                "reference": "tags/2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-301-redirects.1.07.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-301-redirects.2.0.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1558,15 +1558,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "16.0.2",
+            "version": "16.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/16.0.2"
+                "reference": "tags/16.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.0.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.1.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
