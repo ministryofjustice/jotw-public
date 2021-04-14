@@ -738,12 +738,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "65d70a4da7e81391f95ad09420a1b5911cf107dc"
+                "reference": "f52bb23b786716169c13a9facd6fdd6f8d64c22e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/65d70a4da7e81391f95ad09420a1b5911cf107dc",
-                "reference": "65d70a4da7e81391f95ad09420a1b5911cf107dc",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/f52bb23b786716169c13a9facd6fdd6f8d64c22e",
+                "reference": "f52bb23b786716169c13a9facd6fdd6f8d64c22e",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -752,7 +752,7 @@
                 "source": "https://github.com/ministryofjustice/wp-hale/tree/framework-deploy",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2021-04-14T14:32:20+00:00"
+            "time": "2021-04-14T15:37:08+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
