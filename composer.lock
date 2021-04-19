@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.178.3",
+            "version": "3.178.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "cfeed02f14b0fb3cba8bb75f2ae28cb8c9807369"
+                "reference": "5a268a20272c0c9171570ed57f68b629e966deab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cfeed02f14b0fb3cba8bb75f2ae28cb8c9807369",
-                "reference": "cfeed02f14b0fb3cba8bb75f2ae28cb8c9807369",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5a268a20272c0c9171570ed57f68b629e966deab",
+                "reference": "5a268a20272c0c9171570ed57f68b629e966deab",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.178.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.178.5"
             },
-            "time": "2021-04-13T18:16:44+00:00"
+            "time": "2021-04-15T18:12:46+00:00"
         },
         {
             "name": "composer/installers",
@@ -479,20 +479,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.7.0",
+            "version": "5.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "22ea3c6aa631e296c528f58a67371fb2a5e674f2"
+                "reference": "921c59df22d69339d1a8135b9463791b8431b007"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/22ea3c6aa631e296c528f58a67371fb2a5e674f2",
-                "reference": "22ea3c6aa631e296c528f58a67371fb2a5e674f2",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/921c59df22d69339d1a8135b9463791b8431b007",
+                "reference": "921c59df22d69339d1a8135b9463791b8431b007",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.7.0",
+                "johnpbloch/wordpress-core": "5.7.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -521,20 +521,20 @@
                 "source": "http://core.trac.wordpress.org/browser",
                 "wiki": "http://codex.wordpress.org/"
             },
-            "time": "2021-03-09T20:32:28+00:00"
+            "time": "2021-04-15T02:15:53+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.7.0",
+            "version": "5.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "8b057056692ca196aaa7a7ddd915f29426922c6d"
+                "reference": "4d368c02f3e842b446c867589656382f95c6ac58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/8b057056692ca196aaa7a7ddd915f29426922c6d",
-                "reference": "8b057056692ca196aaa7a7ddd915f29426922c6d",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/4d368c02f3e842b446c867589656382f95c6ac58",
+                "reference": "4d368c02f3e842b446c867589656382f95c6ac58",
                 "shasum": ""
             },
             "require": {
@@ -542,7 +542,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.7.0"
+                "wordpress/core-implementation": "5.7.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -569,7 +569,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2021-03-09T20:32:23+00:00"
+            "time": "2021-04-15T02:15:49+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -627,10 +627,10 @@
         },
         {
             "name": "koodimonni-language/core-en_gb",
-            "version": "5.7",
+            "version": "5.7.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/5.7/en_GB.zip"
+                "url": "https://downloads.wordpress.org/translation/core/5.7.1/en_GB.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -738,12 +738,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "f1847e4d9599c94f41a49b928bb12e04ec415ebe"
+                "reference": "5eb75562b8fb51e78c36d0447e029ef262a0887c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/f1847e4d9599c94f41a49b928bb12e04ec415ebe",
-                "reference": "f1847e4d9599c94f41a49b928bb12e04ec415ebe",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/5eb75562b8fb51e78c36d0447e029ef262a0887c",
+                "reference": "5eb75562b8fb51e78c36d0447e029ef262a0887c",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -752,7 +752,7 @@
                 "source": "https://github.com/ministryofjustice/wp-hale/tree/framework-deploy",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2021-04-14T15:53:59+00:00"
+            "time": "2021-04-19T11:56:21+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -760,12 +760,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "e2371b758a2e43346a37bbcff17aa9cf1a902aa1"
+                "reference": "ecdbdea7dca73cda051cdee324a87ec406bd024e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/e2371b758a2e43346a37bbcff17aa9cf1a902aa1",
-                "reference": "e2371b758a2e43346a37bbcff17aa9cf1a902aa1",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/ecdbdea7dca73cda051cdee324a87ec406bd024e",
+                "reference": "ecdbdea7dca73cda051cdee324a87ec406bd024e",
                 "shasum": ""
             },
             "require-dev": {
@@ -792,7 +792,7 @@
                 "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/framework-deploy",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2021-04-14T14:52:31+00:00"
+            "time": "2021-04-19T11:56:44+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1522,15 +1522,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-301-redirects",
-            "version": "2.0.1",
+            "version": "2.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-301-redirects/",
-                "reference": "tags/2.0.1"
+                "reference": "tags/2.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-301-redirects.2.0.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-301-redirects.2.0.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
