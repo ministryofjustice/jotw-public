@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.178.5",
+            "version": "3.178.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "5a268a20272c0c9171570ed57f68b629e966deab"
+                "reference": "ae5590158d773402f09ddc79b82e0d9243d3e990"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5a268a20272c0c9171570ed57f68b629e966deab",
-                "reference": "5a268a20272c0c9171570ed57f68b629e966deab",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ae5590158d773402f09ddc79b82e0d9243d3e990",
+                "reference": "ae5590158d773402f09ddc79b82e0d9243d3e990",
                 "shasum": ""
             },
             "require": {
@@ -92,22 +92,22 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.178.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.178.11"
             },
-            "time": "2021-04-15T18:12:46+00:00"
+            "time": "2021-04-27T18:16:30+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d"
+                "reference": "ae03311f45dfe194412081526be2e003960df74b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
-                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
+                "url": "https://api.github.com/repos/composer/installers/zipball/ae03311f45dfe194412081526be2e003960df74b",
+                "reference": "ae03311f45dfe194412081526be2e003960df74b",
                 "shasum": ""
             },
             "require": {
@@ -201,6 +201,7 @@
                 "majima",
                 "mako",
                 "mediawiki",
+                "miaoxing",
                 "modulework",
                 "modx",
                 "moodle",
@@ -218,6 +219,7 @@
                 "sydes",
                 "sylius",
                 "symfony",
+                "tastyigniter",
                 "typo3",
                 "wordpress",
                 "yawik",
@@ -226,7 +228,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v1.10.0"
+                "source": "https://github.com/composer/installers/tree/v1.11.0"
             },
             "funding": [
                 {
@@ -242,7 +244,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-14T11:07:16+00:00"
+            "time": "2021-04-28T06:42:17+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -404,16 +406,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.8.1",
+            "version": "1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1"
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/35ea11d335fd638b5882ff1725228b3d35496ab1",
-                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/dc960a912984efb74d0a90222870c72c87f10c91",
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91",
                 "shasum": ""
             },
             "require": {
@@ -473,9 +475,9 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.8.1"
+                "source": "https://github.com/guzzle/psr7/tree/1.8.2"
             },
-            "time": "2021-03-21T16:25:00+00:00"
+            "time": "2021-04-26T09:17:50+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -738,12 +740,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "5eb75562b8fb51e78c36d0447e029ef262a0887c"
+                "reference": "e4adb2d0ab323dd09158fbeb8695361cbcb36193"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/5eb75562b8fb51e78c36d0447e029ef262a0887c",
-                "reference": "5eb75562b8fb51e78c36d0447e029ef262a0887c",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-hale/zipball/e4adb2d0ab323dd09158fbeb8695361cbcb36193",
+                "reference": "e4adb2d0ab323dd09158fbeb8695361cbcb36193",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -752,7 +754,7 @@
                 "source": "https://github.com/ministryofjustice/wp-hale/tree/framework-deploy",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2021-04-19T11:56:21+00:00"
+            "time": "2021-04-27T13:42:50+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -760,12 +762,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "ecdbdea7dca73cda051cdee324a87ec406bd024e"
+                "reference": "ee06ea384f1f5e51da4043c1ea39126cbd8dfed4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/ecdbdea7dca73cda051cdee324a87ec406bd024e",
-                "reference": "ecdbdea7dca73cda051cdee324a87ec406bd024e",
+                "url": "https://api.github.com/repos/ministryofjustice/wp-moj-blocks/zipball/ee06ea384f1f5e51da4043c1ea39126cbd8dfed4",
+                "reference": "ee06ea384f1f5e51da4043c1ea39126cbd8dfed4",
                 "shasum": ""
             },
             "require-dev": {
@@ -792,7 +794,7 @@
                 "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/framework-deploy",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2021-04-19T11:56:44+00:00"
+            "time": "2021-04-28T10:48:19+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1486,15 +1488,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "6.1.1",
+            "version": "6.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/6.1.1"
+                "reference": "tags/6.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.1.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1558,15 +1560,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "16.1.1",
+            "version": "16.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/16.1.1"
+                "reference": "tags/16.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
