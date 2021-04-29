@@ -38,9 +38,9 @@
     "relevanssi/relevanssi-premium": "*",
     "ministryofjustice/wp-moj-components": "*",
     "ministryofjustice/wp-user-roles": "*",
-    "ministryofjustice/wp-hale":"dev-framework-deploy",
+    "ministryofjustice/wp-hale":"*",
     "ministryofjustice/cookie-compliance-for-wordpress": "*",
-    "ministryofjustice/wp-moj-blocks": "dev-framework-deploy"
+    "ministryofjustice/wp-moj-blocks": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
