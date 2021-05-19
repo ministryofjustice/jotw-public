@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.181.1",
+            "version": "3.183.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0829df420170e4994767860290a69487a18555f7"
+                "reference": "bf4a4e56859b89ab307033bf695467f6d6042dda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0829df420170e4994767860290a69487a18555f7",
-                "reference": "0829df420170e4994767860290a69487a18555f7",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bf4a4e56859b89ab307033bf695467f6d6042dda",
+                "reference": "bf4a4e56859b89ab307033bf695467f6d6042dda",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.181.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.183.0"
             },
-            "time": "2021-05-12T18:13:31+00:00"
+            "time": "2021-05-18T18:13:37+00:00"
         },
         {
             "name": "composer/installers",
@@ -798,25 +798,26 @@
         },
         {
             "name": "ministryofjustice/wp-moj-components",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-components.git",
-                "reference": "b04291a3e4c1a7542629083de0ce3eaa89dfd830"
+                "reference": "e2945db89aa6a815d53f70b4f6f60a0d11aa7ce5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-components/ministryofjustice-wp-moj-components-b04291a3e4c1a7542629083de0ce3eaa89dfd830-zip-005657.zip",
-                "reference": "b04291a3e4c1a7542629083de0ce3eaa89dfd830",
-                "shasum": "a0382627374ff6d6896c8d68f0996afe663d578d"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-components/ministryofjustice-wp-moj-components-e2945db89aa6a815d53f70b4f6f60a0d11aa7ce5-zip-40d0c9.zip",
+                "reference": "e2945db89aa6a815d53f70b4f6f60a0d11aa7ce5",
+                "shasum": "d9268e04566aa3077746dad73c1ca3e1431eaf48"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "require-dev": {
                 "10up/wp_mock": "0.4.2",
+                "composer/composer": "*",
                 "phpmd/phpmd": "^2.7",
-                "squizlabs/php_codesniffer": "^3.5"
+                "squizlabs/php_codesniffer": "*"
             },
             "type": "wordpress-muplugin",
             "autoload": {
@@ -825,6 +826,15 @@
                 }
             },
             "scripts": {
+                "phpcs-config-set": [
+                    "phpcs --config-set ignore_warnings_on_exit 1"
+                ],
+                "phpcs": [
+                    "phpcs --extensions=php --ignore=*/vendor/* --standard=PSR12 ."
+                ],
+                "phpcbf": [
+                    "phpcbf --extensions=php --ignore=*/vendor/* --standard=PSR12 ."
+                ],
                 "test": [
                     "vendor/bin/phpunit",
                     "vendor/bin/phpcs -p",
@@ -834,6 +844,9 @@
                     "vendor/bin/phpunit --coverage-html coverage --whitelist component"
                 ]
             },
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Damien Wilson",
@@ -850,10 +863,10 @@
             ],
             "description": "A plugin to introduce global functions to a collection of WP sites",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-components/tree/3.4.0",
+                "source": "https://github.com/ministryofjustice/wp-moj-components/tree/3.5.0",
                 "issues": "https://github.com/ministryofjustice/wp-moj-components/issues"
             },
-            "time": "2021-04-28T17:06:52+00:00"
+            "time": "2021-05-19T15:56:45+00:00"
         },
         {
             "name": "ministryofjustice/wp-rewrite-media-to-s3",
@@ -1567,15 +1580,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "16.2",
+            "version": "16.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/16.2"
+                "reference": "tags/16.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
