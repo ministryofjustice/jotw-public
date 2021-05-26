@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.183.3",
+            "version": "3.183.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b790a4cea9592a7df51da3a4affde0945248c24d"
+                "reference": "d46652eda6772b4c88af1f1c0e785e1c8227ec55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b790a4cea9592a7df51da3a4affde0945248c24d",
-                "reference": "b790a4cea9592a7df51da3a4affde0945248c24d",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d46652eda6772b4c88af1f1c0e785e1c8227ec55",
+                "reference": "d46652eda6772b4c88af1f1c0e785e1c8227ec55",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.183.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.183.5"
             },
-            "time": "2021-05-21T18:14:34+00:00"
+            "time": "2021-05-25T18:13:51+00:00"
         },
         {
             "name": "composer/installers",
@@ -758,17 +758,17 @@
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
-            "version": "2.1.0",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "86e944d88b18627fdee945232cdb708107fc0a57"
+                "reference": "4bc86c73761bb8a8fb182daf37035579dcc1435a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-86e944d88b18627fdee945232cdb708107fc0a57-zip-737a95.zip",
-                "reference": "86e944d88b18627fdee945232cdb708107fc0a57",
-                "shasum": "ea34779d201b5543f8a527c36c499e9a37e1e950"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-4bc86c73761bb8a8fb182daf37035579dcc1435a-zip-4ad17d.zip",
+                "reference": "4bc86c73761bb8a8fb182daf37035579dcc1435a",
+                "shasum": "cb7046abc195c41c32151e598e05ff3df2da88e7"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -791,10 +791,10 @@
             ],
             "description": "WP plugin that adds addtional blocks.",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/2.1.0",
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/2.1.2",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2021-04-29T12:57:17+00:00"
+            "time": "2021-05-26T10:53:05+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1508,15 +1508,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "6.1.4",
+            "version": "6.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/6.1.4"
+                "reference": "tags/6.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
