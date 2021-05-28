@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.183.7",
+            "version": "3.183.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "cf9c877e799c43e22d0e0cbc840e91d1885b13b6"
+                "reference": "3b52c4a99faa539c5bdc0a84cf88ee6ea385fd1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cf9c877e799c43e22d0e0cbc840e91d1885b13b6",
-                "reference": "cf9c877e799c43e22d0e0cbc840e91d1885b13b6",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3b52c4a99faa539c5bdc0a84cf88ee6ea385fd1c",
+                "reference": "3b52c4a99faa539c5bdc0a84cf88ee6ea385fd1c",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.183.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.183.8"
             },
-            "time": "2021-05-27T01:00:13+00:00"
+            "time": "2021-05-27T18:13:28+00:00"
         },
         {
             "name": "composer/installers",
@@ -736,25 +736,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "5936653b7f6d70db24b95273b2af36ac86d74148"
+                "reference": "2f04e7f9e8e10ef605d84b8288ce7ae0d9c3e8d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-5936653b7f6d70db24b95273b2af36ac86d74148-zip-31fcc4.zip",
-                "reference": "5936653b7f6d70db24b95273b2af36ac86d74148",
-                "shasum": "6ff7953d3dad14a897d9c67775cf5233ed5cb865"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-2f04e7f9e8e10ef605d84b8288ce7ae0d9c3e8d5-zip-929912.zip",
+                "reference": "2f04e7f9e8e10ef605d84b8288ce7ae0d9c3e8d5",
+                "shasum": "b5a789084614419bc9a0117dfdff18a61bfb455f"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.3.0",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.4.0",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2021-05-27T10:28:04+00:00"
+            "time": "2021-05-28T15:11:26+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
