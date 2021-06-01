@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3206d0f83b31a02a868e35222825ea3",
+    "content-hash": "8ba390823fd9a5bda2972ffb66856fec",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -696,16 +696,16 @@
         },
         {
             "name": "ministryofjustice/cookie-compliance-for-wordpress",
-            "version": "dev-gtm-allowlist",
+            "version": "dev-gtm-allowlist-with-assets",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "f987673003667af01ba198cd8218ae1ae5913a10"
+                "reference": "6d2c27ee84dc7ffc7709448236b8aa812f4750a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/f987673003667af01ba198cd8218ae1ae5913a10",
-                "reference": "f987673003667af01ba198cd8218ae1ae5913a10",
+                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/6d2c27ee84dc7ffc7709448236b8aa812f4750a2",
+                "reference": "6d2c27ee84dc7ffc7709448236b8aa812f4750a2",
                 "shasum": ""
             },
             "require-dev": {
@@ -729,10 +729,10 @@
             ],
             "description": "WP plugin that presents visitor with a cookie consent banner and opt-in setting page.",
             "support": {
-                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/gtm-allowlist",
+                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/gtm-allowlist-with-assets",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2021-05-28T15:31:04+00:00"
+            "time": "2021-06-01T14:08:50+00:00"
         },
         {
             "name": "ministryofjustice/wp-hale",
