@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.183.9",
+            "version": "3.183.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3b3aafdceac4cb820e2ae65a8785e4d07db471a7"
+                "reference": "f42dcf893227842aca11e8ea19f7b2123cf3244b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3b3aafdceac4cb820e2ae65a8785e4d07db471a7",
-                "reference": "3b3aafdceac4cb820e2ae65a8785e4d07db471a7",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f42dcf893227842aca11e8ea19f7b2123cf3244b",
+                "reference": "f42dcf893227842aca11e8ea19f7b2123cf3244b",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.183.9"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.183.11"
             },
-            "time": "2021-05-28T18:28:19+00:00"
+            "time": "2021-06-02T18:14:10+00:00"
         },
         {
             "name": "composer/installers",
@@ -700,12 +700,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "6d2c27ee84dc7ffc7709448236b8aa812f4750a2"
+                "reference": "3dbad407cf2566f541e0779b8ee0814de08a1f75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/6d2c27ee84dc7ffc7709448236b8aa812f4750a2",
-                "reference": "6d2c27ee84dc7ffc7709448236b8aa812f4750a2",
+                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/3dbad407cf2566f541e0779b8ee0814de08a1f75",
+                "reference": "3dbad407cf2566f541e0779b8ee0814de08a1f75",
                 "shasum": ""
             },
             "require-dev": {
@@ -732,7 +732,7 @@
                 "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/gtm-allowlist-with-assets",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2021-06-01T14:08:50+00:00"
+            "time": "2021-06-03T12:36:03+00:00"
         },
         {
             "name": "ministryofjustice/wp-hale",
