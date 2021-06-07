@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.183.8",
+            "version": "3.183.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3b52c4a99faa539c5bdc0a84cf88ee6ea385fd1c"
+                "reference": "0e0be404854482b7cae61ef9f707c7a876b43cdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3b52c4a99faa539c5bdc0a84cf88ee6ea385fd1c",
-                "reference": "3b52c4a99faa539c5bdc0a84cf88ee6ea385fd1c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0e0be404854482b7cae61ef9f707c7a876b43cdf",
+                "reference": "0e0be404854482b7cae61ef9f707c7a876b43cdf",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.183.8"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.183.13"
             },
-            "time": "2021-05-27T18:13:28+00:00"
+            "time": "2021-06-04T18:12:54+00:00"
         },
         {
             "name": "composer/installers",
@@ -1580,15 +1580,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "16.3",
+            "version": "16.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/16.3"
+                "reference": "tags/16.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1598,15 +1598,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-force-login",
-            "version": "5.5",
+            "version": "5.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-force-login/",
-                "reference": "tags/5.5"
+                "reference": "tags/5.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-force-login.5.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-force-login.5.6.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
