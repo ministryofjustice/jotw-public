@@ -696,17 +696,17 @@
         },
         {
             "name": "ministryofjustice/cookie-compliance-for-wordpress",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "bc7e637d5b408f92cda46bfae8b6d2b835febe50"
+                "reference": "1915257493fa008654fce53605266f46e505752a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-bc7e637d5b408f92cda46bfae8b6d2b835febe50-zip-edb927.zip",
-                "reference": "bc7e637d5b408f92cda46bfae8b6d2b835febe50",
-                "shasum": "fc7ed083c94328a7e0d56d1571959d984750d940"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-1915257493fa008654fce53605266f46e505752a-zip-4236eb.zip",
+                "reference": "1915257493fa008654fce53605266f46e505752a",
+                "shasum": "ac325ebf190a796166369027b0750a5fcc70b335"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -729,10 +729,10 @@
             ],
             "description": "WP plugin that presents visitor with a cookie consent banner and opt-in setting page.",
             "support": {
-                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.0.3",
+                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.0.4",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2021-07-05T09:10:36+00:00"
+            "time": "2021-07-05T14:48:20+00:00"
         },
         {
             "name": "ministryofjustice/wp-hale",
