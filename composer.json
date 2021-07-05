@@ -39,7 +39,7 @@
     "ministryofjustice/wp-moj-components": "*",
     "ministryofjustice/wp-user-roles": "*",
     "ministryofjustice/wp-hale":"*",
-    "ministryofjustice/cookie-compliance-for-wordpress": "dev-gtm-allowlist-with-assets",
+    "ministryofjustice/cookie-compliance-for-wordpress": "*",
     "ministryofjustice/wp-moj-blocks": "*"
   },
   "require-dev": {

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ba390823fd9a5bda2972ffb66856fec",
+    "content-hash": "a2fcddaeda4b532514530c5c68c69442",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.184.7",
+            "version": "3.185.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d5d5fe5fdfca6c7a56f2f8364d09c3100d5c2149"
+                "reference": "35310302912fdc3b4a0e829b84424c41e3fd9727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d5d5fe5fdfca6c7a56f2f8364d09c3100d5c2149",
-                "reference": "d5d5fe5fdfca6c7a56f2f8364d09c3100d5c2149",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/35310302912fdc3b4a0e829b84424c41e3fd9727",
+                "reference": "35310302912fdc3b4a0e829b84424c41e3fd9727",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.184.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.185.6"
             },
-            "time": "2021-06-21T18:37:16+00:00"
+            "time": "2021-07-02T18:13:18+00:00"
         },
         {
             "name": "composer/installers",
@@ -696,17 +696,17 @@
         },
         {
             "name": "ministryofjustice/cookie-compliance-for-wordpress",
-            "version": "dev-gtm-allowlist-with-assets",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "cdb1025b28ef6dc82d48189da3529e7c152e7f2f"
+                "reference": "bc7e637d5b408f92cda46bfae8b6d2b835febe50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ministryofjustice/cookie-compliance-for-wordpress/zipball/cdb1025b28ef6dc82d48189da3529e7c152e7f2f",
-                "reference": "cdb1025b28ef6dc82d48189da3529e7c152e7f2f",
-                "shasum": ""
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-bc7e637d5b408f92cda46bfae8b6d2b835febe50-zip-edb927.zip",
+                "reference": "bc7e637d5b408f92cda46bfae8b6d2b835febe50",
+                "shasum": "fc7ed083c94328a7e0d56d1571959d984750d940"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -729,10 +729,10 @@
             ],
             "description": "WP plugin that presents visitor with a cookie consent banner and opt-in setting page.",
             "support": {
-                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/gtm-allowlist-with-assets",
+                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.0.3",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2021-06-04T13:01:04+00:00"
+            "time": "2021-07-05T09:10:36+00:00"
         },
         {
             "name": "ministryofjustice/wp-hale",
@@ -1508,15 +1508,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "6.1.7",
+            "version": "6.1.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/6.1.7"
+                "reference": "tags/6.1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.1.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.1.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1580,15 +1580,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "16.5",
+            "version": "16.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/16.5"
+                "reference": "tags/16.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.6.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1675,9 +1675,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ministryofjustice/cookie-compliance-for-wordpress": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
