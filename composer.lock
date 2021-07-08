@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.185.6",
+            "version": "3.185.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "35310302912fdc3b4a0e829b84424c41e3fd9727"
+                "reference": "d30661623a1835ba4bb406675f865c4b40b4b425"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/35310302912fdc3b4a0e829b84424c41e3fd9727",
-                "reference": "35310302912fdc3b4a0e829b84424c41e3fd9727",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d30661623a1835ba4bb406675f865c4b40b4b425",
+                "reference": "d30661623a1835ba4bb406675f865c4b40b4b425",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.185.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.185.8"
             },
-            "time": "2021-07-02T18:13:18+00:00"
+            "time": "2021-07-07T18:14:28+00:00"
         },
         {
             "name": "composer/installers",
@@ -696,17 +696,17 @@
         },
         {
             "name": "ministryofjustice/cookie-compliance-for-wordpress",
-            "version": "3.0.4",
+            "version": "3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "1915257493fa008654fce53605266f46e505752a"
+                "reference": "ec2e3ad63c8f7b9c3c2d7b1c7813ecaaf610ef01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-1915257493fa008654fce53605266f46e505752a-zip-4236eb.zip",
-                "reference": "1915257493fa008654fce53605266f46e505752a",
-                "shasum": "ac325ebf190a796166369027b0750a5fcc70b335"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-ec2e3ad63c8f7b9c3c2d7b1c7813ecaaf610ef01-zip-677e37.zip",
+                "reference": "ec2e3ad63c8f7b9c3c2d7b1c7813ecaaf610ef01",
+                "shasum": "58eac99f535ee8070c9fb5532f79f8999eaddb13"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -729,10 +729,10 @@
             ],
             "description": "WP plugin that presents visitor with a cookie consent banner and opt-in setting page.",
             "support": {
-                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.0.4",
+                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.0.5",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2021-07-05T14:48:20+00:00"
+            "time": "2021-07-07T17:28:02+00:00"
         },
         {
             "name": "ministryofjustice/wp-hale",
