@@ -736,25 +736,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "2.4.3",
+            "version": "2.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "31d60ef337876ef3d9cc6c67400e2fa02644b653"
+                "reference": "a9531c7e07e9cafae678898a011d621c802cdd11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-31d60ef337876ef3d9cc6c67400e2fa02644b653-zip-4df2a2.zip",
-                "reference": "31d60ef337876ef3d9cc6c67400e2fa02644b653",
-                "shasum": "8656aa457c4ffccbe2b9d753902afb2f915534e1"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-a9531c7e07e9cafae678898a011d621c802cdd11-zip-ea822d.zip",
+                "reference": "a9531c7e07e9cafae678898a011d621c802cdd11",
+                "shasum": "30da8b414853c29af9aa6cb54446e9ed6deba4cf"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.4.3",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.4.4",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2021-07-06T13:34:38+00:00"
+            "time": "2021-07-08T10:18:51+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1544,15 +1544,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-301-redirects",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-301-redirects/",
-                "reference": "tags/2.0.4"
+                "reference": "tags/2.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-301-redirects.2.0.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-301-redirects.2.0.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
