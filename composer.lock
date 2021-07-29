@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.185.21",
+            "version": "3.186.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "58a64da8f232913842f08ce93e62f3a5961664b3"
+                "reference": "50f1ec9c1afa9c09512e1b0f8e03fcec9ea5e731"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/58a64da8f232913842f08ce93e62f3a5961664b3",
-                "reference": "58a64da8f232913842f08ce93e62f3a5961664b3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/50f1ec9c1afa9c09512e1b0f8e03fcec9ea5e731",
+                "reference": "50f1ec9c1afa9c09512e1b0f8e03fcec9ea5e731",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.185.21"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.186.1"
             },
-            "time": "2021-07-26T18:15:01+00:00"
+            "time": "2021-07-28T18:14:43+00:00"
         },
         {
             "name": "composer/installers",
@@ -736,25 +736,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "2.4.5",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "27773f185c4aabc07d4fb94b7a3acc62bccb35f5"
+                "reference": "3500dcb2fd869dfbc0c44884a786768ff131f81b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-27773f185c4aabc07d4fb94b7a3acc62bccb35f5-zip-4496fe.zip",
-                "reference": "27773f185c4aabc07d4fb94b7a3acc62bccb35f5",
-                "shasum": "90d767ce597ee598d4ee6ee422f5684be889fea2"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-3500dcb2fd869dfbc0c44884a786768ff131f81b-zip-21d2a7.zip",
+                "reference": "3500dcb2fd869dfbc0c44884a786768ff131f81b",
+                "shasum": "66a4d975bedfcf1ee8cf11356abdfd1fa33b8b2b"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.4.5",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.5.0",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2021-07-27T11:04:39+00:00"
+            "time": "2021-07-29T11:14:25+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1352,16 +1352,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.23.0",
+            "version": "v1.23.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "2df51500adbaebdc4c38dea4c89a2e131c45c8a1"
+                "reference": "9174a3d80210dca8daa7f31fec659150bbeabfc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2df51500adbaebdc4c38dea4c89a2e131c45c8a1",
-                "reference": "2df51500adbaebdc4c38dea4c89a2e131c45c8a1",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/9174a3d80210dca8daa7f31fec659150bbeabfc6",
+                "reference": "9174a3d80210dca8daa7f31fec659150bbeabfc6",
                 "shasum": ""
             },
             "require": {
@@ -1412,7 +1412,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.23.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.23.1"
             },
             "funding": [
                 {
@@ -1428,7 +1428,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-27T09:27:20+00:00"
+            "time": "2021-05-27T12:26:48+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
