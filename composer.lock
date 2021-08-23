@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.187.2",
+            "version": "3.191.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0ec4ae120cfae758efa3c283dc56eb20602f094c"
+                "reference": "221eb3790a2f5cc73067ec1c13d4c788a0296351"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0ec4ae120cfae758efa3c283dc56eb20602f094c",
-                "reference": "0ec4ae120cfae758efa3c283dc56eb20602f094c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/221eb3790a2f5cc73067ec1c13d4c788a0296351",
+                "reference": "221eb3790a2f5cc73067ec1c13d4c788a0296351",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.187.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.191.1"
             },
-            "time": "2021-08-04T18:12:21+00:00"
+            "time": "2021-08-20T18:43:14+00:00"
         },
         {
             "name": "composer/installers",
@@ -696,17 +696,17 @@
         },
         {
             "name": "ministryofjustice/cookie-compliance-for-wordpress",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "b31dc2867acd2e90d5bc31edaa3aff3b225fa333"
+                "reference": "9b339f95c063b8140f5e795e9020481a0cfded0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-b31dc2867acd2e90d5bc31edaa3aff3b225fa333-zip-962bcd.zip",
-                "reference": "b31dc2867acd2e90d5bc31edaa3aff3b225fa333",
-                "shasum": "c049f16a6a47a2502a32368335044662cc3c5bd5"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-9b339f95c063b8140f5e795e9020481a0cfded0a-zip-3312cc.zip",
+                "reference": "9b339f95c063b8140f5e795e9020481a0cfded0a",
+                "shasum": "c88814e75c875a738020117d7bc3d6f802634971"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -729,32 +729,32 @@
             ],
             "description": "WP plugin that presents visitor with a cookie consent banner and opt-in setting page.",
             "support": {
-                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.1.0",
+                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.1.1",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2021-07-22T10:25:47+00:00"
+            "time": "2021-08-09T15:26:07+00:00"
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "2.5.1",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "561b52fce043ad67439a44d21425bd90353d7aae"
+                "reference": "b4d0e6a6185aa6583ba789133b3b7952bbbfe422"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-561b52fce043ad67439a44d21425bd90353d7aae-zip-13992d.zip",
-                "reference": "561b52fce043ad67439a44d21425bd90353d7aae",
-                "shasum": "c5e05b267840a8bc491c682521ba02fa9d57cd07"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-b4d0e6a6185aa6583ba789133b3b7952bbbfe422-zip-5e41f8.zip",
+                "reference": "b4d0e6a6185aa6583ba789133b3b7952bbbfe422",
+                "shasum": "3197d37c07dd1ba226206710d619c84cf82ef800"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.5.1",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.6.0",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2021-08-05T09:20:09+00:00"
+            "time": "2021-08-23T13:11:33+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1508,15 +1508,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "6.2.1",
+            "version": "6.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/6.2.1"
+                "reference": "tags/6.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.2.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1580,15 +1580,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "16.8",
+            "version": "16.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/16.8"
+                "reference": "tags/16.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
