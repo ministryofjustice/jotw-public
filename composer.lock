@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.204.0",
+            "version": "3.204.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "96ad45b95bfe4515623cec11576ec22c10dd22f3"
+                "reference": "ff16c004eecf274b6aab71c1138c6cb6f9f873e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/96ad45b95bfe4515623cec11576ec22c10dd22f3",
-                "reference": "96ad45b95bfe4515623cec11576ec22c10dd22f3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ff16c004eecf274b6aab71c1138c6cb6f9f873e7",
+                "reference": "ff16c004eecf274b6aab71c1138c6cb6f9f873e7",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.204.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.204.3"
             },
-            "time": "2021-11-17T19:17:36+00:00"
+            "time": "2021-11-22T19:19:49+00:00"
         },
         {
             "name": "composer/installers",
@@ -878,25 +878,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "2.13.2",
+            "version": "2.13.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "70c26b171dab24379c053d89a9e2811886e32227"
+                "reference": "7c4570b03d71679cb8d7f52755499ecbdded1fe5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-70c26b171dab24379c053d89a9e2811886e32227-zip-4dfdd1.zip",
-                "reference": "70c26b171dab24379c053d89a9e2811886e32227",
-                "shasum": "399f7e4ba08961bb6e4a2c5c1833d8a6c7b4643d"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-7c4570b03d71679cb8d7f52755499ecbdded1fe5-zip-40a523.zip",
+                "reference": "7c4570b03d71679cb8d7f52755499ecbdded1fe5",
+                "shasum": "f334f1d2e3a8a2e997fdd0d3f7d1799666186ba5"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.13.2",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.13.3",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2021-11-18T15:51:51+00:00"
+            "time": "2021-11-23T14:06:05+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1487,16 +1487,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.4.0",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627"
+                "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5f38c8804a9e97d23e0c8d63341088cd8a22d627",
-                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/6f981ee24cf69ee7ce9736146d1c57c2780598a8",
+                "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8",
                 "shasum": ""
             },
             "require": {
@@ -1505,7 +1505,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.4-dev"
+                    "dev-main": "2.5-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -1534,7 +1534,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.4.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.0"
             },
             "funding": [
                 {
@@ -1550,7 +1550,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-23T23:28:01+00:00"
+            "time": "2021-07-12T14:48:14+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
