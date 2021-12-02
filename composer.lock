@@ -4,8 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2fcddaeda4b532514530c5c68c69442",
+    "content-hash": "71954cce4a1f620b19117dd99bb23dd1",
     "packages": [
+        {
+            "name": "acf/advanced-custom-fields-pro",
+            "version": "5.9.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.wp.dsd.io/dist/acf/advanced-custom-fields-pro/acf-advanced-custom-fields-pro-5.9.9.zip",
+                "shasum": "ec834f6a64d7532ac4620fa87cf264ef0cacc014"
+            },
+            "type": "wordpress-plugin"
+        },
         {
             "name": "aws/aws-crt-php",
             "version": "v1.0.2",
@@ -58,16 +68,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.204.5",
+            "version": "3.206.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1f690db4dfd66d0c729f4f8db12431bb047b4900"
+                "reference": "ade6621f709261097a0fd2ca0cad7a15ba899b76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1f690db4dfd66d0c729f4f8db12431bb047b4900",
-                "reference": "1f690db4dfd66d0c729f4f8db12431bb047b4900",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ade6621f709261097a0fd2ca0cad7a15ba899b76",
+                "reference": "ade6621f709261097a0fd2ca0cad7a15ba899b76",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +153,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.204.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.206.0"
             },
-            "time": "2021-11-24T19:13:34+00:00"
+            "time": "2021-11-29T23:46:23+00:00"
         },
         {
             "name": "composer/installers",
@@ -1859,15 +1869,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "17.6",
+            "version": "17.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/17.6"
+                "reference": "tags/17.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.17.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.17.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
