@@ -1,0 +1,43 @@
+{
+    "key": "group_61a6103e68ef5",
+    "title": "Document details",
+    "fields": [
+        {
+            "key": "field_61a6105e254b5",
+            "label": "Document file",
+            "name": "document_file",
+            "type": "file",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": 20,
+            "mime_types": "pdf,doc,docx,rtf,odt,fodt,txt,xls,xlsx,ods,fods"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "document"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1638793979
+}
