@@ -16,7 +16,7 @@
                 "id": ""
             },
             "return_format": "array",
-            "library": "uploadedTo",
+            "library": "all",
             "min_size": "",
             "max_size": 20,
             "mime_types": "pdf,doc,docx,rtf,odf,xls,xlsx,txt"
