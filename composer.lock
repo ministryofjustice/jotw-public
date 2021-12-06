@@ -8,11 +8,11 @@
     "packages": [
         {
             "name": "acf/advanced-custom-fields-pro",
-            "version": "5.9.9",
+            "version": "5.11.1",
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/acf/advanced-custom-fields-pro/acf-advanced-custom-fields-pro-5.9.9.zip",
-                "shasum": "ec834f6a64d7532ac4620fa87cf264ef0cacc014"
+                "url": "https://composer.wp.dsd.io/dist/acf/advanced-custom-fields-pro/acf-advanced-custom-fields-pro-5.11.1.zip",
+                "shasum": "52db10dea96c57bcc2283b5f4af10fe22fc75894"
             },
             "type": "wordpress-plugin"
         },
@@ -68,16 +68,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.206.0",
+            "version": "3.208.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ade6621f709261097a0fd2ca0cad7a15ba899b76"
+                "reference": "d497414c1c4ae55145493f720f7b4d12afe92c02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ade6621f709261097a0fd2ca0cad7a15ba899b76",
-                "reference": "ade6621f709261097a0fd2ca0cad7a15ba899b76",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d497414c1c4ae55145493f720f7b4d12afe92c02",
+                "reference": "d497414c1c4ae55145493f720f7b4d12afe92c02",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.206.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.208.1"
             },
-            "time": "2021-11-29T23:46:23+00:00"
+            "time": "2021-12-03T19:16:12+00:00"
         },
         {
             "name": "composer/installers",
@@ -888,25 +888,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "2.13.5",
+            "version": "2.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "f11f502f58cf799668e8a4bb252b41c5924af03d"
+                "reference": "ff7fa4cfd5a13fffe420faf398c523ab800544c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-f11f502f58cf799668e8a4bb252b41c5924af03d-zip-2c528a.zip",
-                "reference": "f11f502f58cf799668e8a4bb252b41c5924af03d",
-                "shasum": "14c81f6ec1bf9a855e96f1406050f535361260a3"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-ff7fa4cfd5a13fffe420faf398c523ab800544c2-zip-a60442.zip",
+                "reference": "ff7fa4cfd5a13fffe420faf398c523ab800544c2",
+                "shasum": "7310fce3bc087cf8aa1734e1897aa25c7e376e4b"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.13.5",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.14.0",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2021-11-25T14:50:14+00:00"
+            "time": "2021-12-06T14:12:48+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1869,15 +1869,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "17.7",
+            "version": "17.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/17.7"
+                "reference": "tags/17.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.17.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.17.7.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
