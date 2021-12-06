@@ -19,7 +19,7 @@
             "library": "all",
             "min_size": "",
             "max_size": 20,
-            "mime_types": "pdf,doc,docx,rtf,odf,xls,xlsx,txt"
+            "mime_types": "pdf,doc,docx,rtf,odt,fodt,txt,xls,xlsx,ods,fods"
         }
     ],
     "location": [
