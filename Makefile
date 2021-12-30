@@ -1,6 +1,6 @@
 default: build
 
-# Run the project build script
+## Run the project build script
 build:
 	bin/build.sh
 
