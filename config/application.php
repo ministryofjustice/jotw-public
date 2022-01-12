@@ -26,6 +26,14 @@ if (file_exists($root_dir . '/.env')) {
  */
 define('WP_ENV', env('WP_ENV') ?: 'production');
 
+/**
+ * Initialise Sentry
+ */
+Sentry\init([
+    'dsn' => 'https://9163ab3ed33f485b846e2f1117a9e92b@o345774.ingest.sentry.io/6143850',
+    'environment'=> WP_ENV . (env('SENTRY_DEV_ID') ?? ''),
+]);
+
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
 if (file_exists($env_config)) {
