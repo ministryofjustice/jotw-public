@@ -68,16 +68,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.209.3",
+            "version": "3.209.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1c351046d8fd46961f4d020d38624d46065134cf"
+                "reference": "784e5ccc1b544db5018a41fc4dbfeda4c7d436b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1c351046d8fd46961f4d020d38624d46065134cf",
-                "reference": "1c351046d8fd46961f4d020d38624d46065134cf",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/784e5ccc1b544db5018a41fc4dbfeda4c7d436b3",
+                "reference": "784e5ccc1b544db5018a41fc4dbfeda4c7d436b3",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.4"
             },
-            "time": "2022-01-11T19:13:42+00:00"
+            "time": "2022-01-12T19:14:37+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1071,25 +1071,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "2.15.3",
+            "version": "2.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "d799d310e06b64082772ebebefcd4e57389a3aa6"
+                "reference": "06863d120e5f26ebbc3d3034ec1c1772f4fcf825"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-d799d310e06b64082772ebebefcd4e57389a3aa6-zip-8d1e64.zip",
-                "reference": "d799d310e06b64082772ebebefcd4e57389a3aa6",
-                "shasum": "f82f3ff56d8b488126c520f7b0b05a6b304a8644"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-06863d120e5f26ebbc3d3034ec1c1772f4fcf825-zip-012be5.zip",
+                "reference": "06863d120e5f26ebbc3d3034ec1c1772f4fcf825",
+                "shasum": "0f907165d3c418adecef1822b1450745a6b5ee6b"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.15.3",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.16.0",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2022-01-11T13:07:47+00:00"
+            "time": "2022-01-13T12:20:18+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
