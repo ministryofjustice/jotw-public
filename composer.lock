@@ -68,16 +68,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.209.4",
+            "version": "3.209.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "784e5ccc1b544db5018a41fc4dbfeda4c7d436b3"
+                "reference": "9e833ab2b98ab004e0a98ad473212bdfdd7dbc43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/784e5ccc1b544db5018a41fc4dbfeda4c7d436b3",
-                "reference": "784e5ccc1b544db5018a41fc4dbfeda4c7d436b3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9e833ab2b98ab004e0a98ad473212bdfdd7dbc43",
+                "reference": "9e833ab2b98ab004e0a98ad473212bdfdd7dbc43",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.5"
             },
-            "time": "2022-01-12T19:14:37+00:00"
+            "time": "2022-01-13T19:22:21+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1093,17 +1093,17 @@
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
-            "version": "3.4.4",
+            "version": "3.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "deaca78bf72913b220a6c1d686705153e6eac78a"
+                "reference": "7ab431e627d42f36206a48d02168cc040d0db1cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-deaca78bf72913b220a6c1d686705153e6eac78a-zip-112804.zip",
-                "reference": "deaca78bf72913b220a6c1d686705153e6eac78a",
-                "shasum": "009526a2e1b94129c54b549f744336d00d935e67"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-7ab431e627d42f36206a48d02168cc040d0db1cc-zip-5ef4a8.zip",
+                "reference": "7ab431e627d42f36206a48d02168cc040d0db1cc",
+                "shasum": "31a01d65ef7eeb2a8fe5ca063e80753ff522b36c"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -1126,10 +1126,10 @@
             ],
             "description": "WP plugin that adds addtional blocks.",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/3.4.4",
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/3.4.5",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2022-01-13T15:22:00+00:00"
+            "time": "2022-01-14T15:51:14+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -2224,16 +2224,16 @@
         },
         {
             "name": "sentry/sentry",
-            "version": "3.3.5",
+            "version": "3.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "c186c44c32899ad0cf5b4e942d71035f01b87b64"
+                "reference": "1b1c35a3f5afe5c7c17d572205a7733b33ab5c87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/c186c44c32899ad0cf5b4e942d71035f01b87b64",
-                "reference": "c186c44c32899ad0cf5b4e942d71035f01b87b64",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/1b1c35a3f5afe5c7c17d572205a7733b33ab5c87",
+                "reference": "1b1c35a3f5afe5c7c17d572205a7733b33ab5c87",
                 "shasum": ""
             },
             "require": {
@@ -2260,17 +2260,18 @@
                 "raven/raven": "*"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.17",
+                "friendsofphp/php-cs-fixer": "^2.19|3.4.*",
                 "http-interop/http-factory-guzzle": "^1.0",
                 "monolog/monolog": "^1.3|^2.0",
                 "nikic/php-parser": "^4.10.3",
                 "php-http/mock-client": "^1.3",
+                "phpbench/phpbench": "^1.0",
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12",
-                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/phpstan": "^1.3",
+                "phpstan/phpstan-phpunit": "^1.0",
                 "phpunit/phpunit": "^8.5.14|^9.4",
                 "symfony/phpunit-bridge": "^5.2|^6.0",
-                "vimeo/psalm": "^4.2"
+                "vimeo/psalm": "^4.17"
             },
             "suggest": {
                 "monolog/monolog": "Allow sending log messages to Sentry by using the included Monolog handler."
@@ -2312,7 +2313,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/3.3.5"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.3.6"
             },
             "funding": [
                 {
@@ -2324,7 +2325,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-12-27T12:31:24+00:00"
+            "time": "2022-01-14T09:05:19+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
