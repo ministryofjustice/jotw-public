@@ -1093,17 +1093,17 @@
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
-            "version": "3.5.0",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "b2c29929ea95f9541eedf5015ad607796b68ca26"
+                "reference": "82af66a3b24ef65efa8e77226263316b0b30b172"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-b2c29929ea95f9541eedf5015ad607796b68ca26-zip-f43be6.zip",
-                "reference": "b2c29929ea95f9541eedf5015ad607796b68ca26",
-                "shasum": "2903cb09f610a1e028bdb4fd1462ac6655db6dea"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-82af66a3b24ef65efa8e77226263316b0b30b172-zip-168ac9.zip",
+                "reference": "82af66a3b24ef65efa8e77226263316b0b30b172",
+                "shasum": "6255ce7f96b0e57089ba5f56b080a48af04e3ffc"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -1126,10 +1126,10 @@
             ],
             "description": "WP plugin that adds addtional blocks.",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/3.5.0",
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/3.6.0",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2022-01-17T14:22:56+00:00"
+            "time": "2022-01-18T11:35:32+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
