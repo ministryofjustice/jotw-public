@@ -68,16 +68,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.209.28",
+            "version": "3.209.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "dfc4fdee991cdf764241125490a0b22875af6afe"
+                "reference": "d2a7902ea12fbcfc26a0ae6a07d0e5f8c6e5e9a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/dfc4fdee991cdf764241125490a0b22875af6afe",
-                "reference": "dfc4fdee991cdf764241125490a0b22875af6afe",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d2a7902ea12fbcfc26a0ae6a07d0e5f8c6e5e9a1",
+                "reference": "d2a7902ea12fbcfc26a0ae6a07d0e5f8c6e5e9a1",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.28"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.29"
             },
-            "time": "2022-02-21T19:14:33+00:00"
+            "time": "2022-02-22T19:14:12+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -525,12 +525,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -816,20 +816,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.9.0",
+            "version": "5.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "6ada7243daf56881a1a09b5fbba60b993e38fa74"
+                "reference": "37734d678aac2d8cae73271583e638eaa82823d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6ada7243daf56881a1a09b5fbba60b993e38fa74",
-                "reference": "6ada7243daf56881a1a09b5fbba60b993e38fa74",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/37734d678aac2d8cae73271583e638eaa82823d2",
+                "reference": "37734d678aac2d8cae73271583e638eaa82823d2",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.9.0",
+                "johnpbloch/wordpress-core": "5.9.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -858,20 +858,20 @@
                 "source": "http://core.trac.wordpress.org/browser",
                 "wiki": "http://codex.wordpress.org/"
             },
-            "time": "2022-01-25T20:11:11+00:00"
+            "time": "2022-02-22T15:31:51+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.9.0",
+            "version": "5.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "51241ed9138dd1fb552f6b85fc2025e6135fc03f"
+                "reference": "2c3acb773b91a72ab83ee039532d2c7e0b6f2127"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/51241ed9138dd1fb552f6b85fc2025e6135fc03f",
-                "reference": "51241ed9138dd1fb552f6b85fc2025e6135fc03f",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/2c3acb773b91a72ab83ee039532d2c7e0b6f2127",
+                "reference": "2c3acb773b91a72ab83ee039532d2c7e0b6f2127",
                 "shasum": ""
             },
             "require": {
@@ -879,7 +879,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.9.0"
+                "wordpress/core-implementation": "5.9.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -906,7 +906,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2022-01-25T20:28:49+00:00"
+            "time": "2022-02-22T15:31:48+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -964,10 +964,10 @@
         },
         {
             "name": "koodimonni-language/core-en_gb",
-            "version": "5.9",
+            "version": "5.9.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/5.9/en_GB.zip"
+                "url": "https://downloads.wordpress.org/translation/core/5.9.1/en_GB.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1031,17 +1031,17 @@
         },
         {
             "name": "ministryofjustice/cookie-compliance-for-wordpress",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "0065651c508bdee40643e225c1aaac5f0e11dae5"
+                "reference": "67ae08827bddf61d485b9addba32ae39f68aefdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-0065651c508bdee40643e225c1aaac5f0e11dae5-zip-43486b.zip",
-                "reference": "0065651c508bdee40643e225c1aaac5f0e11dae5",
-                "shasum": "1f62e06274632bedd5ff6468ca5df9e3b1736f6f"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-67ae08827bddf61d485b9addba32ae39f68aefdf-zip-de97b3.zip",
+                "reference": "67ae08827bddf61d485b9addba32ae39f68aefdf",
+                "shasum": "eba8752d295ef7f09c2592fe5bfffacc06df1caa"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -1064,32 +1064,32 @@
             ],
             "description": "WP plugin that presents visitor with a cookie consent banner and opt-in setting page.",
             "support": {
-                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.2.0",
+                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.2.1",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2021-09-13T12:45:11+00:00"
+            "time": "2022-02-23T10:32:21+00:00"
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "2.17.5",
+            "version": "2.17.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "cd86d30a1c1490bebb09789a0551fc95a6f961d8"
+                "reference": "b4db6a7c688f403d4a5e80e315b93f8dee5edd40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-cd86d30a1c1490bebb09789a0551fc95a6f961d8-zip-445b80.zip",
-                "reference": "cd86d30a1c1490bebb09789a0551fc95a6f961d8",
-                "shasum": "b770441873271a336c96a7dedc04330639910136"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-b4db6a7c688f403d4a5e80e315b93f8dee5edd40-zip-e9226f.zip",
+                "reference": "b4db6a7c688f403d4a5e80e315b93f8dee5edd40",
+                "shasum": "da82bf8897f6cd02bd4e25a8aa466381cc04eee2"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.17.5",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/2.17.6",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2022-02-10T16:09:37+00:00"
+            "time": "2022-02-22T11:50:51+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1133,17 +1133,17 @@
         },
         {
             "name": "ministryofjustice/wp-moj-components",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-components.git",
-                "reference": "e2945db89aa6a815d53f70b4f6f60a0d11aa7ce5"
+                "reference": "bc735aaab6ee2d67e6afed2fad6399ecf9accf05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-components/ministryofjustice-wp-moj-components-e2945db89aa6a815d53f70b4f6f60a0d11aa7ce5-zip-40d0c9.zip",
-                "reference": "e2945db89aa6a815d53f70b4f6f60a0d11aa7ce5",
-                "shasum": "d9268e04566aa3077746dad73c1ca3e1431eaf48"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-components/ministryofjustice-wp-moj-components-bc735aaab6ee2d67e6afed2fad6399ecf9accf05-zip-447db5.zip",
+                "reference": "bc735aaab6ee2d67e6afed2fad6399ecf9accf05",
+                "shasum": "409a59383d53bfcdb53696b3356b9d4191cefc1b"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -1198,10 +1198,10 @@
             ],
             "description": "A plugin to introduce global functions to a collection of WP sites",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-components/tree/3.5.0",
+                "source": "https://github.com/ministryofjustice/wp-moj-components/tree/3.5.1",
                 "issues": "https://github.com/ministryofjustice/wp-moj-components/issues"
             },
-            "time": "2021-05-19T15:56:45+00:00"
+            "time": "2022-02-23T10:40:42+00:00"
         },
         {
             "name": "ministryofjustice/wp-rewrite-media-to-s3",
@@ -1239,17 +1239,17 @@
         },
         {
             "name": "ministryofjustice/wp-user-roles",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-user-roles.git",
-                "reference": "8093d7fc7b212715a4ecdd6c8678e2a4874535f1"
+                "reference": "4368697221992ed0b2c2a9cfd6c3f4c283672a86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-user-roles/ministryofjustice-wp-user-roles-8093d7fc7b212715a4ecdd6c8678e2a4874535f1-zip-bb89eb.zip",
-                "reference": "8093d7fc7b212715a4ecdd6c8678e2a4874535f1",
-                "shasum": "c9d9f94bf320b3fae94badcfc8bf8416e9fef7e4"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-user-roles/ministryofjustice-wp-user-roles-4368697221992ed0b2c2a9cfd6c3f4c283672a86-zip-ae34f6.zip",
+                "reference": "4368697221992ed0b2c2a9cfd6c3f4c283672a86",
+                "shasum": "c745bf390e7020f34c5aacdfd779f56f87dc8626"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -1271,10 +1271,10 @@
             ],
             "description": "A WordPress plugin to create user roles typically required by a MOJDigital WordPress site",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-user-roles/tree/1.0.0",
+                "source": "https://github.com/ministryofjustice/wp-user-roles/tree/1.0.1",
                 "issues": "https://github.com/ministryofjustice/wp-user-roles/issues"
             },
-            "time": "2021-08-26T08:22:31+00:00"
+            "time": "2022-02-23T10:59:00+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
