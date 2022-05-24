@@ -1071,25 +1071,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "1e6c0af399c8244c73cf4efcf2c231999dd45821"
+                "reference": "ffa169e68042f7eaaf0a1c56fbe4fe9823d0bdea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-1e6c0af399c8244c73cf4efcf2c231999dd45821-zip-b41c31.zip",
-                "reference": "1e6c0af399c8244c73cf4efcf2c231999dd45821",
-                "shasum": "e0844d1edee32b282891439b49c0994fb29bb8e7"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-ffa169e68042f7eaaf0a1c56fbe4fe9823d0bdea-zip-fdc056.zip",
+                "reference": "ffa169e68042f7eaaf0a1c56fbe4fe9823d0bdea",
+                "shasum": "2fc18eaf348ffa86b07a6909234a5303af151541"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.0.0",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.0.1",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2022-05-24T10:49:30+00:00"
+            "time": "2022-05-24T11:35:45+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
