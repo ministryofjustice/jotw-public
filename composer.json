@@ -36,6 +36,7 @@
     "acf/advanced-custom-fields-pro": "*",
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/simple-301-redirects": "*",
+    "wpackagist-plugin/query-monitor": "*",
     "wpackagist-plugin/ewww-image-optimizer": "*",
     "wpackagist-plugin/unconfirmed": "*",
     "wpackagist-plugin/wp-force-login": "*",
