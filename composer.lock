@@ -68,16 +68,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.225.5",
+            "version": "3.227.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "09b404c6b80b9c31be15fa245e647a2f9fb5e733"
+                "reference": "88d803113ade68604ec03c591d65e1e44406ab8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/09b404c6b80b9c31be15fa245e647a2f9fb5e733",
-                "reference": "09b404c6b80b9c31be15fa245e647a2f9fb5e733",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/88d803113ade68604ec03c591d65e1e44406ab8e",
+                "reference": "88d803113ade68604ec03c591d65e1e44406ab8e",
                 "shasum": ""
             },
             "require": {
@@ -85,9 +85,9 @@
                 "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-simplexml": "*",
-                "guzzlehttp/guzzle": "^5.3.3 || ^6.2.1 || ^7.0",
+                "guzzlehttp/guzzle": "^6.5.7 || ^7.4.4",
                 "guzzlehttp/promises": "^1.4.0",
-                "guzzlehttp/psr7": "^1.7.0 || ^2.1.1",
+                "guzzlehttp/psr7": "^1.8.5 || ^2.3",
                 "mtdowling/jmespath.php": "^2.6",
                 "php": ">=5.5"
             },
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.225.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.227.0"
             },
-            "time": "2022-06-15T19:35:13+00:00"
+            "time": "2022-06-17T18:15:06+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1071,25 +1071,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "3.0.11",
+            "version": "3.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "0033f6ba8fd9074330cfd22efb7d1f0ce952f007"
+                "reference": "0c5aa6520d5716205416cf382b9a3911c3f9b14f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-0033f6ba8fd9074330cfd22efb7d1f0ce952f007-zip-6a9279.zip",
-                "reference": "0033f6ba8fd9074330cfd22efb7d1f0ce952f007",
-                "shasum": "e538f1d3ca15564a6565a8128c7cefd8c81edb8b"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-0c5aa6520d5716205416cf382b9a3911c3f9b14f-zip-edf9ac.zip",
+                "reference": "0c5aa6520d5716205416cf382b9a3911c3f9b14f",
+                "shasum": "52992dc112eb0f698ce463d7fb9dde80351ac0cd"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.0.11",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.0.12",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2022-06-16T14:08:22+00:00"
+            "time": "2022-06-20T10:34:03+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -3345,16 +3345,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.7.0",
+            "version": "3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "a2cd51b45bcaef9c1f2a4bda48f2dd2fa2b95563"
+                "reference": "1359e176e9307e906dc3d890bcc9603ff6d90619"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/a2cd51b45bcaef9c1f2a4bda48f2dd2fa2b95563",
-                "reference": "a2cd51b45bcaef9c1f2a4bda48f2dd2fa2b95563",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/1359e176e9307e906dc3d890bcc9603ff6d90619",
+                "reference": "1359e176e9307e906dc3d890bcc9603ff6d90619",
                 "shasum": ""
             },
             "require": {
@@ -3397,7 +3397,7 @@
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
-            "time": "2022-06-13T06:31:38+00:00"
+            "time": "2022-06-18T07:21:10+00:00"
         }
     ],
     "aliases": [],
