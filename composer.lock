@@ -68,16 +68,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.231.18",
+            "version": "3.233.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "76db7b327e023c7bbce77a0bfc9fb4d559e765b3"
+                "reference": "c804eb974240ae04b4ae5381f45003f25bbed56c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/76db7b327e023c7bbce77a0bfc9fb4d559e765b3",
-                "reference": "76db7b327e023c7bbce77a0bfc9fb4d559e765b3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c804eb974240ae04b4ae5381f45003f25bbed56c",
+                "reference": "c804eb974240ae04b4ae5381f45003f25bbed56c",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.231.18"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.233.2"
             },
-            "time": "2022-08-01T18:18:21+00:00"
+            "time": "2022-08-15T18:16:30+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1072,25 +1072,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "3.2.6",
+            "version": "3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "330bcea082d85de2825acf1c02e3d9a9d01cc1d6"
+                "reference": "298c67846d826e88120fb7b2bb46cfd5b2a39a4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-330bcea082d85de2825acf1c02e3d9a9d01cc1d6-zip-323bbe.zip",
-                "reference": "330bcea082d85de2825acf1c02e3d9a9d01cc1d6",
-                "shasum": "8add56a81bf05fb8cb53e81a671e2c0f7a7cb68e"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-298c67846d826e88120fb7b2bb46cfd5b2a39a4b-zip-e8ebce.zip",
+                "reference": "298c67846d826e88120fb7b2bb46cfd5b2a39a4b",
+                "shasum": "a76920e9ad09e06b19ca2088424f6b96ef43d68b"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.2.6",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.2.7",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2022-08-02T14:06:11+00:00"
+            "time": "2022-08-16T08:33:22+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -3236,15 +3236,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.3.1",
+            "version": "5.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.3.1"
+                "reference": "tags/5.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3308,15 +3308,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "19.4",
+            "version": "19.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/19.4"
+                "reference": "tags/19.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.19.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.19.5.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
