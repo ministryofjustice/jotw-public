@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07421c6ed5386d63a4c94851ac35ccb8",
+    "content-hash": "c6c22bd64750a21ebce0c9cfcef287fa",
     "packages": [
         {
             "name": "acf/advanced-custom-fields-pro",
