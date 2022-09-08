@@ -4,9 +4,6 @@
   "description": "A starter project for WordPress in MOJ using docker",
   "config": {
     "preferred-install": "dist",
-    "platform": {
-           "php":"7.4"
-    },
     "allow-plugins": {
       "composer/installers": true,
       "johnpbloch/wordpress-core-installer": true,

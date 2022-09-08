@@ -8,7 +8,7 @@ set -e
 ##
 
 # Install PHP dependencies (WordPress, plugins, etc.)
-composer install --ignore-platform-req=ext-simplexml
+composer install
 
 # Build theme assets
 # Supports multiple themes
