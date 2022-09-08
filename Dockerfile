@@ -1,4 +1,4 @@
-FROM ministryofjustice/wp-multisite-base:latest
+FROM ministryofjustice/wp-multisite-base:1243d0da
 
 ADD . /bedrock
 
