@@ -1,4 +1,4 @@
-FROM ministryofjustice/wp-multisite-base:php7.4
+FROM ministryofjustice/wp-multisite-base@sha256:c5e00286c251f60ce7248019e180c9beade0ac417d753fd864e7f696f33b7a01
 
 ADD . /bedrock
 
