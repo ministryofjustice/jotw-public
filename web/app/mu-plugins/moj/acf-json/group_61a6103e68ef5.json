@@ -20,6 +20,25 @@
             "min_size": "",
             "max_size": 20,
             "mime_types": "pdf,doc,docx,rtf,odt,fodt,txt,xls,xlsx,ods,fods"
+        },
+        {
+            "key": "field_634579d617c37",
+            "label": "Document Summary",
+            "name": "document_summary",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
         }
     ],
     "location": [
@@ -39,5 +58,6 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1638793979
+    "show_in_rest": 0,
+    "modified": 1665497612
 }
