@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6c22bd64750a21ebce0c9cfcef287fa",
+    "content-hash": "0f5130686711c503f3c1c91d3805c95b",
     "packages": [
         {
             "name": "acf/advanced-custom-fields-pro",
@@ -68,16 +68,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.243.2",
+            "version": "3.244.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c4ac1ff8f40f11fcf0d8e58b3d13838a44a8a582"
+                "reference": "b246cfd4a1ba91dbfc0d411c581edf5dba1be401"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c4ac1ff8f40f11fcf0d8e58b3d13838a44a8a582",
-                "reference": "c4ac1ff8f40f11fcf0d8e58b3d13838a44a8a582",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b246cfd4a1ba91dbfc0d411c581edf5dba1be401",
+                "reference": "b246cfd4a1ba91dbfc0d411c581edf5dba1be401",
                 "shasum": ""
             },
             "require": {
@@ -156,9 +156,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.243.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.244.1"
             },
-            "time": "2022-11-15T13:14:49+00:00"
+            "time": "2022-11-15T21:56:45+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -827,20 +827,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.1.0",
+            "version": "6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "e1672dd7a4db40a06dfa60816f572eb41a16c1e8"
+                "reference": "916a0d60b397878f9292bc1e89718da04eb59e28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/e1672dd7a4db40a06dfa60816f572eb41a16c1e8",
-                "reference": "e1672dd7a4db40a06dfa60816f572eb41a16c1e8",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/916a0d60b397878f9292bc1e89718da04eb59e28",
+                "reference": "916a0d60b397878f9292bc1e89718da04eb59e28",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.1.0",
+                "johnpbloch/wordpress-core": "6.0.3",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -869,20 +869,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2022-11-02T01:18:45+00:00"
+            "time": "2022-10-17T21:17:26+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.1.0",
+            "version": "6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "2804caa571802035b95441e32a3be0f80672b199"
+                "reference": "f07b5dfd83fb728b0877ee48a4d792624338aa8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/2804caa571802035b95441e32a3be0f80672b199",
-                "reference": "2804caa571802035b95441e32a3be0f80672b199",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/f07b5dfd83fb728b0877ee48a4d792624338aa8e",
+                "reference": "f07b5dfd83fb728b0877ee48a4d792624338aa8e",
                 "shasum": ""
             },
             "require": {
@@ -890,7 +890,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "6.1.0"
+                "wordpress/core-implementation": "6.0.3"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -917,7 +917,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2022-11-02T01:18:41+00:00"
+            "time": "2022-10-17T21:17:21+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -975,10 +975,10 @@
         },
         {
             "name": "koodimonni-language/core-en_gb",
-            "version": "6.1",
+            "version": "6.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/6.1/en_GB.zip"
+                "url": "https://downloads.wordpress.org/translation/core/6.1.1/en_GB.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1082,25 +1082,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "3.7.2",
+            "version": "3.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "bb09e1f30574e2a3ebfe6114add1281c2766bbba"
+                "reference": "09a36d2649dffae2b5464c6f14850e81e23409ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-bb09e1f30574e2a3ebfe6114add1281c2766bbba-zip-2623d6.zip",
-                "reference": "bb09e1f30574e2a3ebfe6114add1281c2766bbba",
-                "shasum": "ef1fe54a8604f242a23cb02ac865adc9d04632c3"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-09a36d2649dffae2b5464c6f14850e81e23409ef-zip-d945ca.zip",
+                "reference": "09a36d2649dffae2b5464c6f14850e81e23409ef",
+                "shasum": "77f6eecdfb7c316993b438f16e9f37becf33a158"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.2",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.3",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2022-11-15T14:37:36+00:00"
+            "time": "2022-11-16T10:42:00+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -3142,6 +3142,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
+        },
+        {
+            "name": "wpackagist-plugin/force-regenerate-thumbnails",
+            "version": "2.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/force-regenerate-thumbnails/",
+                "reference": "tags/2.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/force-regenerate-thumbnails/"
         },
         {
             "name": "wpackagist-plugin/query-monitor",
