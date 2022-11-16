@@ -29,7 +29,7 @@
     "composer/installers": "^1.4",
     "aws/aws-sdk-php": "*",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "6.0.3",
+    "johnpbloch/wordpress": "^6.1.1",
     "koodimonni-language/core-en_gb": "*",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "*",
