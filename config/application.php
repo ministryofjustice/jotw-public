@@ -83,6 +83,8 @@ define('NONCE_SALT', env('NONCE_SALT'));
  */
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', true);
+define('ALTERNATE_WP_CRON',true);
+define('WP_CRON_LOCK_TIMEOUT',60);
 define('DISALLOW_FILE_EDIT', true);
 define('S3_UPLOADS_BASE_URL', getenv('S3_UPLOADS_BASE_URL') ? getenv('S3_UPLOADS_BASE_URL') : false);
 define('WP_DEFAULT_THEME', 'hale');
