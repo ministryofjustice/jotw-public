@@ -49,7 +49,7 @@
     "ministryofjustice/wp-user-roles": "*",
     "ministryofjustice/wp-hale":"*",
     "ministryofjustice/cookie-compliance-for-wordpress": "*",
-    "ministryofjustice/wp-moj-blocks": "3.8.0",
+    "ministryofjustice/wp-moj-blocks": "*",
     "sentry/sdk": "^3.1"
   },
   "require-dev": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4c38331d2f87f6f6cd1dd6d4873fc28",
+    "content-hash": "c47233a2cfeb1d7ad8781c534aba4b04",
     "packages": [
         {
             "name": "acf/advanced-custom-fields-pro",
@@ -68,16 +68,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.246.1",
+            "version": "3.247.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "34c2e3d699d08bc8f212d57f0d7a374a7404c653"
+                "reference": "00542e760d8464e0ee635f916841fdfbd1ceb95c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/34c2e3d699d08bc8f212d57f0d7a374a7404c653",
-                "reference": "34c2e3d699d08bc8f212d57f0d7a374a7404c653",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/00542e760d8464e0ee635f916841fdfbd1ceb95c",
+                "reference": "00542e760d8464e0ee635f916841fdfbd1ceb95c",
                 "shasum": ""
             },
             "require": {
@@ -156,9 +156,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.246.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.247.2"
             },
-            "time": "2022-11-19T22:48:18+00:00"
+            "time": "2022-11-23T19:35:36+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1082,39 +1082,39 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "3.7.4",
+            "version": "3.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "b4f47b84f6a2293b683b8541f6e2cea2c2d1c421"
+                "reference": "41c9fd39f3adb965588f2bc666d7eead135a192b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-b4f47b84f6a2293b683b8541f6e2cea2c2d1c421-zip-f26a9f.zip",
-                "reference": "b4f47b84f6a2293b683b8541f6e2cea2c2d1c421",
-                "shasum": "1b4388531ba1ded04dfae9b63b8d08940ef31c0e"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-41c9fd39f3adb965588f2bc666d7eead135a192b-zip-5f6171.zip",
+                "reference": "41c9fd39f3adb965588f2bc666d7eead135a192b",
+                "shasum": "f29f8504f7b311568937455ef89ce1d80b6ab25d"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.4",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.5",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2022-11-16T13:46:13+00:00"
+            "time": "2022-11-24T09:26:42+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
-            "version": "3.8.0",
+            "version": "3.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "15bcb012ec815a5c73ec241b730d60a950d6aa35"
+                "reference": "d2280de47635246bfb37f79d0a6aeff89a223bef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-15bcb012ec815a5c73ec241b730d60a950d6aa35-zip-be0804.zip",
-                "reference": "15bcb012ec815a5c73ec241b730d60a950d6aa35",
-                "shasum": "151ead7e9553d5e591f10ebb8ebc9d6b1c0a704b"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-d2280de47635246bfb37f79d0a6aeff89a223bef-zip-35f532.zip",
+                "reference": "d2280de47635246bfb37f79d0a6aeff89a223bef",
+                "shasum": "bdf398c7c859886f8e979425888332d68fe937ae"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -1137,10 +1137,10 @@
             ],
             "description": "WP plugin that adds addtional blocks.",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/3.8.0",
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/3.8.2",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2022-11-14T09:10:08+00:00"
+            "time": "2022-11-24T09:32:19+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -2236,16 +2236,16 @@
         },
         {
             "name": "sentry/sentry",
-            "version": "3.11.0",
+            "version": "3.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "91bd6e54d9352754bbdd1d800d2b88618f8130d4"
+                "reference": "4902f43640963ed45517fd7c1da7fdd5511bb304"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/91bd6e54d9352754bbdd1d800d2b88618f8130d4",
-                "reference": "91bd6e54d9352754bbdd1d800d2b88618f8130d4",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/4902f43640963ed45517fd7c1da7fdd5511bb304",
+                "reference": "4902f43640963ed45517fd7c1da7fdd5511bb304",
                 "shasum": ""
             },
             "require": {
@@ -2290,7 +2290,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.11.x-dev"
+                    "dev-master": "3.12.x-dev"
                 }
             },
             "autoload": {
@@ -2324,7 +2324,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/3.11.0"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.12.0"
             },
             "funding": [
                 {
@@ -2336,7 +2336,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-10-25T14:36:50+00:00"
+            "time": "2022-11-22T10:57:08+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
