@@ -27,7 +27,7 @@ define('DOING_CRON', true);
 
 if ( !defined('ABSPATH') ) {
     /** Set up WordPress environment */
-    require_once( dirname( __FILE__ ) . '/wp-load.php' );
+    require_once( dirname( __FILE__ ) . '/wp/wp-load.php' );
 }
 cron_write_log("[Custom Cron] Starting Cron |==============================================================");
 /**
@@ -185,7 +185,7 @@ function cron_write_log($message){
         $data = date( "[Y-m-d H:i:s]" ) . $message . "\r\n";
         @fwrite($handle, $data);
         @fclose($handle);
-    
+
 }
 
 die();
