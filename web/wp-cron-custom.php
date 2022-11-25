@@ -178,14 +178,14 @@ if ( _get_cron_lock() == $doing_wp_cron ){
 cron_write_log("[Custom Cron] Done |==============================================================");
 
 function cron_write_log($message){
-    if ( defined('WP_DEBUG') && WP_DEBUG ){
+
         $file = WP_CONTENT_DIR . "/debug-custom-cron.log";
 
         $handle = fopen( $file, 'ab' );
         $data = date( "[Y-m-d H:i:s]" ) . $message . "\r\n";
         @fwrite($handle, $data);
         @fclose($handle);
-    }
+    
 }
 
 die();
