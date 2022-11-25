@@ -12,7 +12,7 @@ $message = "";
 $message .= "[". date('M d, Y h:i:s') ."] Starting WordPress MultiSite Cron Job\n";
 /** Define ABSPATH as this file's directory */
 if ( ! defined( 'ABSPATH' ) ) {
-    define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+    define( 'ABSPATH', dirname( __FILE__ ) . '/wp/' );
 }
 if ( file_exists( ABSPATH . 'wp-load.php' ) ) {
     $message .= "[". date('h:i:s') ."] Loading WordPress: " . ABSPATH . "wp-load.php\n";
