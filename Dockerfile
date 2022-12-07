@@ -1,4 +1,4 @@
-FROM ministryofjustice/wp-multisite-base:php7.4
+FROM ministryofjustice/wp-multisite-base:php8.1
 
 ADD . /bedrock
 
