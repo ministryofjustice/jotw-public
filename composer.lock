@@ -68,16 +68,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.247.2",
+            "version": "3.254.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "00542e760d8464e0ee635f916841fdfbd1ceb95c"
+                "reference": "9e07cddf9be6ab241c241344ca2e9cf33e32a22e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/00542e760d8464e0ee635f916841fdfbd1ceb95c",
-                "reference": "00542e760d8464e0ee635f916841fdfbd1ceb95c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9e07cddf9be6ab241c241344ca2e9cf33e32a22e",
+                "reference": "9e07cddf9be6ab241c241344ca2e9cf33e32a22e",
                 "shasum": ""
             },
             "require": {
@@ -156,9 +156,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.247.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.254.0"
             },
-            "time": "2022-11-23T19:35:36+00:00"
+            "time": "2022-12-19T19:23:23+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1104,17 +1104,17 @@
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
-            "version": "3.8.2",
+            "version": "3.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "d2280de47635246bfb37f79d0a6aeff89a223bef"
+                "reference": "d3e21356ab4906c5b8c55910e948b9a607413b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-d2280de47635246bfb37f79d0a6aeff89a223bef-zip-35f532.zip",
-                "reference": "d2280de47635246bfb37f79d0a6aeff89a223bef",
-                "shasum": "bdf398c7c859886f8e979425888332d68fe937ae"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-d3e21356ab4906c5b8c55910e948b9a607413b1e-zip-80f454.zip",
+                "reference": "d3e21356ab4906c5b8c55910e948b9a607413b1e",
+                "shasum": "006050a8eb7edb5821aa72ed6fea94b1e32fb31a"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -1137,10 +1137,10 @@
             ],
             "description": "WP plugin that adds addtional blocks.",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/3.8.2",
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/3.8.3",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2022-11-24T09:32:19+00:00"
+            "time": "2022-12-20T12:11:20+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -2407,16 +2407,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.15",
+            "version": "v5.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "8f29b0f06c9ff48c8431e78eb90c8bd6f82cb12b"
+                "reference": "0f43af12a27733a060b92396b7bde84a4376da0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/8f29b0f06c9ff48c8431e78eb90c8bd6f82cb12b",
-                "reference": "8f29b0f06c9ff48c8431e78eb90c8bd6f82cb12b",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/0f43af12a27733a060b92396b7bde84a4376da0a",
+                "reference": "0f43af12a27733a060b92396b7bde84a4376da0a",
                 "shasum": ""
             },
             "require": {
@@ -2474,7 +2474,7 @@
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.15"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.16"
             },
             "funding": [
                 {
@@ -2490,7 +2490,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-25T16:22:13+00:00"
+            "time": "2022-11-09T11:27:39+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -3127,15 +3127,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "6.9.2",
+            "version": "6.9.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/6.9.2"
+                "reference": "tags/6.9.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.9.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.9.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3181,15 +3181,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.3.5",
+            "version": "5.3.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.3.5"
+                "reference": "tags/5.3.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3253,15 +3253,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "19.10",
+            "version": "19.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/19.10"
+                "reference": "tags/19.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.19.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.19.13.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3271,15 +3271,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-crontrol",
-            "version": "1.14.0",
+            "version": "1.15.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-crontrol/",
-                "reference": "tags/1.14.0"
+                "reference": "tags/1.15.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.14.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.15.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
