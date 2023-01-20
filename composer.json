@@ -47,6 +47,7 @@
     "ministryofjustice/wp-rewrite-media-to-s3": "*",
     "relevanssi/relevanssi-premium": "*",
     "ministryofjustice/wp-moj-components": "*",
+    "ministryofjustice/wp-gov-uk-notify": "*",
     "ministryofjustice/wp-user-roles": "*",
     "ministryofjustice/wp-hale":"*",
     "ministryofjustice/cookie-compliance-for-wordpress": "*",
@@ -58,7 +59,7 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "ministryofjustice/wp-user-roles"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "ministryofjustice/wp-user-roles", "ministryofjustice/wp-gov-uk-notify"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/hale/": ["ministryofjustice/wp-hale"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
