@@ -8,11 +8,11 @@
     "packages": [
         {
             "name": "acf/advanced-custom-fields-pro",
-            "version": "6.0.2",
+            "version": "6.0.7",
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/acf/advanced-custom-fields-pro/acf-advanced-custom-fields-pro-6.0.2.zip",
-                "shasum": "89a790f5a6465a07fa95411a742d4aecd9bc7bc3"
+                "url": "https://composer.wp.dsd.io/dist/acf/advanced-custom-fields-pro/acf-advanced-custom-fields-pro-6.0.7.zip",
+                "shasum": "1d547e472141a5029db1954f8a5b80510f54c6fe"
             },
             "type": "wordpress-plugin"
         },
@@ -121,16 +121,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.260.1",
+            "version": "3.261.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "964653acda337343e64344426fa609cf1df930e1"
+                "reference": "4889eff2b3fe35e878fbcaf8374d73f043609170"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/964653acda337343e64344426fa609cf1df930e1",
-                "reference": "964653acda337343e64344426fa609cf1df930e1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4889eff2b3fe35e878fbcaf8374d73f043609170",
+                "reference": "4889eff2b3fe35e878fbcaf8374d73f043609170",
                 "shasum": ""
             },
             "require": {
@@ -209,9 +209,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.260.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.261.10"
             },
-            "time": "2023-02-22T19:23:27+00:00"
+            "time": "2023-03-13T18:19:14+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -707,16 +707,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.4.3",
+            "version": "2.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "67c26b443f348a51926030c83481b85718457d3d"
+                "reference": "3cf1b6d4f0c820a2cf8bcaec39fc698f3443b5cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/67c26b443f348a51926030c83481b85718457d3d",
-                "reference": "67c26b443f348a51926030c83481b85718457d3d",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/3cf1b6d4f0c820a2cf8bcaec39fc698f3443b5cf",
+                "reference": "3cf1b6d4f0c820a2cf8bcaec39fc698f3443b5cf",
                 "shasum": ""
             },
             "require": {
@@ -806,7 +806,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.4.3"
+                "source": "https://github.com/guzzle/psr7/tree/2.4.4"
             },
             "funding": [
                 {
@@ -822,7 +822,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-26T14:07:24+00:00"
+            "time": "2023-03-09T13:19:02+00:00"
         },
         {
             "name": "http-interop/http-factory-guzzle",
@@ -1231,25 +1231,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "3.7.5",
+            "version": "3.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "41c9fd39f3adb965588f2bc666d7eead135a192b"
+                "reference": "f440582e962837a803ecadbaff0d732f5a965083"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-41c9fd39f3adb965588f2bc666d7eead135a192b-zip-5f6171.zip",
-                "reference": "41c9fd39f3adb965588f2bc666d7eead135a192b",
-                "shasum": "f29f8504f7b311568937455ef89ce1d80b6ab25d"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-f440582e962837a803ecadbaff0d732f5a965083-zip-d40402.zip",
+                "reference": "f440582e962837a803ecadbaff0d732f5a965083",
+                "shasum": "86111194bad855c4845c8cad87dc494f907f3108"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.5",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.6",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2022-11-24T09:26:42+00:00"
+            "time": "2023-03-13T16:07:46+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -2447,16 +2447,16 @@
         },
         {
             "name": "sentry/sentry",
-            "version": "3.13.1",
+            "version": "3.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "71c86fe4699a7f1a40c7d985f3dc7667045152f0"
+                "reference": "c6a0e24d2f8da8d8f57cdcc87ca635248c1a91c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/71c86fe4699a7f1a40c7d985f3dc7667045152f0",
-                "reference": "71c86fe4699a7f1a40c7d985f3dc7667045152f0",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/c6a0e24d2f8da8d8f57cdcc87ca635248c1a91c5",
+                "reference": "c6a0e24d2f8da8d8f57cdcc87ca635248c1a91c5",
                 "shasum": ""
             },
             "require": {
@@ -2514,7 +2514,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "MIT"
             ],
             "authors": [
                 {
@@ -2535,7 +2535,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/3.13.1"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.15.0"
             },
             "funding": [
                 {
@@ -2547,7 +2547,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-02-10T10:17:57+00:00"
+            "time": "2023-03-13T11:45:26+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2618,16 +2618,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.20",
+            "version": "v5.4.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "b4d936b657c7952a41e89efd0ddcea51f8c90f34"
+                "reference": "6b88914a7f1bf144df15904f60a19be78a67a3b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/b4d936b657c7952a41e89efd0ddcea51f8c90f34",
-                "reference": "b4d936b657c7952a41e89efd0ddcea51f8c90f34",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/6b88914a7f1bf144df15904f60a19be78a67a3b2",
+                "reference": "6b88914a7f1bf144df15904f60a19be78a67a3b2",
                 "shasum": ""
             },
             "require": {
@@ -2685,7 +2685,7 @@
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.20"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.21"
             },
             "funding": [
                 {
@@ -2701,7 +2701,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-25T18:32:18+00:00"
+            "time": "2023-02-17T21:35:35+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -2783,16 +2783,16 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "b03c99236445492f20c61666e8f7e5d388b078e5"
+                "reference": "4fe5cf6ede71096839f0e4b4444d65dd3a7c1eb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/b03c99236445492f20c61666e8f7e5d388b078e5",
-                "reference": "b03c99236445492f20c61666e8f7e5d388b078e5",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/4fe5cf6ede71096839f0e4b4444d65dd3a7c1eb9",
+                "reference": "4fe5cf6ede71096839f0e4b4444d65dd3a7c1eb9",
                 "shasum": ""
             },
             "require": {
@@ -2832,7 +2832,7 @@
                 "options"
             ],
             "support": {
-                "source": "https://github.com/symfony/options-resolver/tree/v5.4.19"
+                "source": "https://github.com/symfony/options-resolver/tree/v5.4.21"
             },
             "funding": [
                 {
@@ -2848,7 +2848,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-01T08:32:19+00:00"
+            "time": "2023-02-14T08:03:56+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3374,15 +3374,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.11.1",
+            "version": "3.11.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.11.1"
+                "reference": "tags/3.11.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.11.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.11.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3464,15 +3464,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "20.1",
+            "version": "20.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/20.1"
+                "reference": "tags/20.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.20.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.20.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3585,5 +3585,5 @@
         "php": ">=7.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
