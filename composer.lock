@@ -121,16 +121,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.261.10",
+            "version": "3.261.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4889eff2b3fe35e878fbcaf8374d73f043609170"
+                "reference": "7d17f3187a4d5bebc41ca5d363570ed632b698c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4889eff2b3fe35e878fbcaf8374d73f043609170",
-                "reference": "4889eff2b3fe35e878fbcaf8374d73f043609170",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7d17f3187a4d5bebc41ca5d363570ed632b698c0",
+                "reference": "7d17f3187a4d5bebc41ca5d363570ed632b698c0",
                 "shasum": ""
             },
             "require": {
@@ -209,9 +209,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.261.10"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.261.15"
             },
-            "time": "2023-03-13T18:19:14+00:00"
+            "time": "2023-03-20T18:19:46+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1253,17 +1253,17 @@
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
-            "version": "3.8.4",
+            "version": "3.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-moj-blocks.git",
-                "reference": "379b12b9b7b0637ad6fcdb6d4e8de7f63eed2023"
+                "reference": "b8054f9dc717ac4863405eb33f91bed5fab11d63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-379b12b9b7b0637ad6fcdb6d4e8de7f63eed2023-zip-004602.zip",
-                "reference": "379b12b9b7b0637ad6fcdb6d4e8de7f63eed2023",
-                "shasum": "100b5e20a875d64ba49c3bd20082aba1aceba58c"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-moj-blocks/ministryofjustice-wp-moj-blocks-b8054f9dc717ac4863405eb33f91bed5fab11d63-zip-30c330.zip",
+                "reference": "b8054f9dc717ac4863405eb33f91bed5fab11d63",
+                "shasum": "67bfae9305397fb4ee7f7b35d5aa34cff3a0c2c1"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -1286,10 +1286,10 @@
             ],
             "description": "WP plugin that adds addtional blocks.",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/3.8.4",
+                "source": "https://github.com/ministryofjustice/wp-moj-blocks/tree/3.8.5",
                 "issues": "https://github.com/ministryofjustice/wp-moj-blocks/issues"
             },
-            "time": "2022-12-20T15:36:52+00:00"
+            "time": "2023-03-21T11:09:28+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-components",
@@ -1395,7 +1395,6 @@
                 "source": "https://github.com/ministryofjustice/wp-rewrite-media-to-s3/tree/0.3.1",
                 "issues": "https://github.com/ministryofjustice/wp-rewrite-media-to-s3/issues"
             },
-            "abandoned": true,
             "time": "2020-05-14T16:29:40+00:00"
         },
         {
@@ -2447,16 +2446,16 @@
         },
         {
             "name": "sentry/sentry",
-            "version": "3.15.0",
+            "version": "3.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "c6a0e24d2f8da8d8f57cdcc87ca635248c1a91c5"
+                "reference": "5326a8786b8c7c3a51ea0c6d06e6cb6a9dfa6779"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/c6a0e24d2f8da8d8f57cdcc87ca635248c1a91c5",
-                "reference": "c6a0e24d2f8da8d8f57cdcc87ca635248c1a91c5",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/5326a8786b8c7c3a51ea0c6d06e6cb6a9dfa6779",
+                "reference": "5326a8786b8c7c3a51ea0c6d06e6cb6a9dfa6779",
                 "shasum": ""
             },
             "require": {
@@ -2535,7 +2534,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/3.15.0"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.16.0"
             },
             "funding": [
                 {
@@ -2547,7 +2546,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-03-13T11:45:26+00:00"
+            "time": "2023-03-16T10:37:16+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3374,15 +3373,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.11.2",
+            "version": "3.12.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.11.2"
+                "reference": "tags/3.12.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.11.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3482,15 +3481,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-crontrol",
-            "version": "1.15.1",
+            "version": "1.15.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-crontrol/",
-                "reference": "tags/1.15.1"
+                "reference": "tags/1.15.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.15.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.15.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
