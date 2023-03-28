@@ -71,23 +71,27 @@
         },
         {
             "name": "aws/aws-crt-php",
-            "version": "v1.0.4",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/awslabs/aws-crt-php.git",
-                "reference": "f5c64ee7c5fce196e2519b3d9b7138649efe032d"
+                "reference": "1926277fc71d253dfa820271ac5987bdb193ccf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/f5c64ee7c5fce196e2519b3d9b7138649efe032d",
-                "reference": "f5c64ee7c5fce196e2519b3d9b7138649efe032d",
+                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/1926277fc71d253dfa820271ac5987bdb193ccf5",
+                "reference": "1926277fc71d253dfa820271ac5987bdb193ccf5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35|^5.6.3"
+                "phpunit/phpunit": "^4.8.35||^5.6.3||^9.5",
+                "yoast/phpunit-polyfills": "^1.0"
+            },
+            "suggest": {
+                "ext-awscrt": "Make sure you install awscrt native extension to use any of the functionality."
             },
             "type": "library",
             "autoload": {
@@ -106,7 +110,7 @@
                 }
             ],
             "description": "AWS Common Runtime for PHP",
-            "homepage": "http://aws.amazon.com/sdkforphp",
+            "homepage": "https://github.com/awslabs/aws-crt-php",
             "keywords": [
                 "amazon",
                 "aws",
@@ -115,22 +119,22 @@
             ],
             "support": {
                 "issues": "https://github.com/awslabs/aws-crt-php/issues",
-                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.0.4"
+                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.1"
             },
-            "time": "2023-01-31T23:08:25+00:00"
+            "time": "2023-03-24T20:22:19+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.261.15",
+            "version": "3.262.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7d17f3187a4d5bebc41ca5d363570ed632b698c0"
+                "reference": "6359e467b6f099149f93769e014416b5f841bb42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7d17f3187a4d5bebc41ca5d363570ed632b698c0",
-                "reference": "7d17f3187a4d5bebc41ca5d363570ed632b698c0",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6359e467b6f099149f93769e014416b5f841bb42",
+                "reference": "6359e467b6f099149f93769e014416b5f841bb42",
                 "shasum": ""
             },
             "require": {
@@ -209,9 +213,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.261.15"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.262.2"
             },
-            "time": "2023-03-20T18:19:46+00:00"
+            "time": "2023-03-27T18:22:32+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1231,25 +1235,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "3.7.6",
+            "version": "3.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "f440582e962837a803ecadbaff0d732f5a965083"
+                "reference": "f8b60a69c6e32d3510ab9b179dac5477a92d841e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-f440582e962837a803ecadbaff0d732f5a965083-zip-d40402.zip",
-                "reference": "f440582e962837a803ecadbaff0d732f5a965083",
-                "shasum": "86111194bad855c4845c8cad87dc494f907f3108"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-f8b60a69c6e32d3510ab9b179dac5477a92d841e-zip-8d0a19.zip",
+                "reference": "f8b60a69c6e32d3510ab9b179dac5477a92d841e",
+                "shasum": "5c2b24dfac87da13a67d8d33ba1ee5b0f1043832"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.6",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.7",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2023-03-13T16:07:46+00:00"
+            "time": "2023-03-22T14:10:44+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1622,38 +1626,44 @@
         },
         {
             "name": "php-http/discovery",
-            "version": "1.14.3",
+            "version": "1.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/discovery.git",
-                "reference": "31d8ee46d0215108df16a8527c7438e96a4d7735"
+                "reference": "5cc428320191ac1d0b6520034c2dc0698628ced5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/discovery/zipball/31d8ee46d0215108df16a8527c7438e96a4d7735",
-                "reference": "31d8ee46d0215108df16a8527c7438e96a4d7735",
+                "url": "https://api.github.com/repos/php-http/discovery/zipball/5cc428320191ac1d0b6520034c2dc0698628ced5",
+                "reference": "5cc428320191ac1d0b6520034c2dc0698628ced5",
                 "shasum": ""
             },
             "require": {
+                "composer-plugin-api": "^1.0|^2.0",
                 "php": "^7.1 || ^8.0"
             },
             "conflict": {
                 "nyholm/psr7": "<1.0"
             },
+            "provide": {
+                "php-http/async-client-implementation": "*",
+                "php-http/client-implementation": "*",
+                "psr/http-client-implementation": "*",
+                "psr/http-factory-implementation": "*",
+                "psr/http-message-implementation": "*"
+            },
             "require-dev": {
+                "composer/composer": "^1.0.2|^2.0",
                 "graham-campbell/phpspec-skip-example-extension": "^5.0",
                 "php-http/httplug": "^1.0 || ^2.0",
                 "php-http/message-factory": "^1.0",
-                "phpspec/phpspec": "^5.1 || ^6.1"
+                "phpspec/phpspec": "^5.1 || ^6.1 || ^7.3",
+                "symfony/phpunit-bridge": "^6.2"
             },
-            "suggest": {
-                "php-http/message": "Allow to use Guzzle, Diactoros or Slim Framework factories"
-            },
-            "type": "library",
+            "type": "composer-plugin",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.9-dev"
-                }
+                "class": "Http\\Discovery\\Composer\\Plugin",
+                "plugin-optional": true
             },
             "autoload": {
                 "psr-4": {
@@ -1670,7 +1680,7 @@
                     "email": "mark.sagikazar@gmail.com"
                 }
             ],
-            "description": "Finds installed HTTPlug implementations and PSR-7 message factories",
+            "description": "Finds and installs PSR-7, PSR-17, PSR-18 and HTTPlug implementations",
             "homepage": "http://php-http.org",
             "keywords": [
                 "adapter",
@@ -1679,13 +1689,14 @@
                 "factory",
                 "http",
                 "message",
+                "psr17",
                 "psr7"
             ],
             "support": {
                 "issues": "https://github.com/php-http/discovery/issues",
-                "source": "https://github.com/php-http/discovery/tree/1.14.3"
+                "source": "https://github.com/php-http/discovery/tree/1.15.2"
             },
-            "time": "2022-07-11T14:04:40+00:00"
+            "time": "2023-02-11T08:28:41+00:00"
         },
         {
             "name": "php-http/guzzle7-adapter",
@@ -2446,32 +2457,31 @@
         },
         {
             "name": "sentry/sentry",
-            "version": "3.16.0",
+            "version": "3.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "5326a8786b8c7c3a51ea0c6d06e6cb6a9dfa6779"
+                "reference": "95d2e932383cf684f77acff0d2a5aef5ad2f1933"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/5326a8786b8c7c3a51ea0c6d06e6cb6a9dfa6779",
-                "reference": "5326a8786b8c7c3a51ea0c6d06e6cb6a9dfa6779",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/95d2e932383cf684f77acff0d2a5aef5ad2f1933",
+                "reference": "95d2e932383cf684f77acff0d2a5aef5ad2f1933",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "guzzlehttp/promises": "^1.4",
-                "guzzlehttp/psr7": "^1.8.4|^2.1.1",
                 "jean85/pretty-package-versions": "^1.5|^2.0.4",
                 "php": "^7.2|^8.0",
                 "php-http/async-client-implementation": "^1.0",
                 "php-http/client-common": "^1.5|^2.0",
-                "php-http/discovery": "^1.11, <1.15",
+                "php-http/discovery": "^1.15",
                 "php-http/httplug": "^1.1|^2.0",
                 "php-http/message": "^1.5",
                 "psr/http-factory": "^1.0",
-                "psr/http-message-implementation": "^1.0",
+                "psr/http-factory-implementation": "^1.0",
                 "psr/log": "^1.0|^2.0|^3.0",
                 "symfony/options-resolver": "^3.4.43|^4.4.30|^5.0.11|^6.0",
                 "symfony/polyfill-php80": "^1.17"
@@ -2482,6 +2492,7 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.19|3.4.*",
+                "guzzlehttp/psr7": "^1.8.4|^2.1.1",
                 "http-interop/http-factory-guzzle": "^1.0",
                 "monolog/monolog": "^1.6|^2.0|^3.0",
                 "nikic/php-parser": "^4.10.3",
@@ -2534,7 +2545,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/3.16.0"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.17.0"
             },
             "funding": [
                 {
@@ -2546,7 +2557,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-03-16T10:37:16+00:00"
+            "time": "2023-03-26T21:54:06+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3355,15 +3366,15 @@
         },
         {
             "name": "wpackagist-plugin/force-regenerate-thumbnails",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/force-regenerate-thumbnails/",
-                "reference": "tags/2.1.1"
+                "reference": "tags/2.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.1.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3373,15 +3384,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.12.0",
+            "version": "3.12.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.12.0"
+                "reference": "tags/3.12.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3409,15 +3420,15 @@
         },
         {
             "name": "wpackagist-plugin/safe-svg",
-            "version": "2.0.3",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/safe-svg/",
-                "reference": "tags/2.0.3"
+                "reference": "tags/2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.0.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.1.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
