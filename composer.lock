@@ -125,16 +125,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.268.16",
+            "version": "3.269.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b59134c9ca64dcb9de6f7dbbcb9d5a75ed665a98"
+                "reference": "03b0b8984c46c469c70bfb05fea7b1ac9b859a8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b59134c9ca64dcb9de6f7dbbcb9d5a75ed665a98",
-                "reference": "b59134c9ca64dcb9de6f7dbbcb9d5a75ed665a98",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/03b0b8984c46c469c70bfb05fea7b1ac9b859a8e",
+                "reference": "03b0b8984c46c469c70bfb05fea7b1ac9b859a8e",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +146,8 @@
                 "guzzlehttp/promises": "^1.4.0",
                 "guzzlehttp/psr7": "^1.9.1 || ^2.4.5",
                 "mtdowling/jmespath.php": "^2.6",
-                "php": ">=5.5"
+                "php": ">=5.5",
+                "psr/http-message": "^1.0"
             },
             "require-dev": {
                 "andrewsville/php-token-reflection": "^1.4",
@@ -163,7 +164,6 @@
                 "paragonie/random_compat": ">= 2",
                 "phpunit/phpunit": "^4.8.35 || ^5.6.3 || ^9.5",
                 "psr/cache": "^1.0",
-                "psr/http-message": "^1.0",
                 "psr/simple-cache": "^1.0",
                 "sebastian/comparator": "^1.2.3 || ^4.0",
                 "yoast/phpunit-polyfills": "^1.0"
@@ -214,9 +214,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.268.16"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.269.1"
             },
-            "time": "2023-04-21T21:37:05+00:00"
+            "time": "2023-04-27T18:22:40+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1160,17 +1160,17 @@
         },
         {
             "name": "ministryofjustice/cookie-compliance-for-wordpress",
-            "version": "3.4.2",
+            "version": "3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress.git",
-                "reference": "54a231e11afc7eef1f5a9a0e572067b6d90fa3e0"
+                "reference": "2cdef468b7c0481ee9a9230a1c4c0c16166e8980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-54a231e11afc7eef1f5a9a0e572067b6d90fa3e0-zip-d1da00.zip",
-                "reference": "54a231e11afc7eef1f5a9a0e572067b6d90fa3e0",
-                "shasum": "5f194e00b3fd7eda7050dd4d7720f301463ccff2"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/cookie-compliance-for-wordpress/ministryofjustice-cookie-compliance-for-wordpress-2cdef468b7c0481ee9a9230a1c4c0c16166e8980-zip-cfa455.zip",
+                "reference": "2cdef468b7c0481ee9a9230a1c4c0c16166e8980",
+                "shasum": "d8a75da5bb76828134604adfeea98ba0e777ae80"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -1193,10 +1193,10 @@
             ],
             "description": "WP plugin that presents visitor with a cookie consent banner and opt-in setting page.",
             "support": {
-                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.4.2",
+                "source": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/tree/3.4.3",
                 "issues": "https://github.com/ministryofjustice/cookie-compliance-for-wordpress/issues"
             },
-            "time": "2023-04-24T17:08:46+00:00"
+            "time": "2023-04-28T10:08:50+00:00"
         },
         {
             "name": "ministryofjustice/wp-gov-uk-notify",
@@ -1233,25 +1233,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "3.7.9",
+            "version": "3.7.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "105750a9e1c594d9c290adb63f0757bfbbf721fa"
+                "reference": "e1fefad124d998b4a3c1c377975e804cd425e1de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-105750a9e1c594d9c290adb63f0757bfbbf721fa-zip-0b0a88.zip",
-                "reference": "105750a9e1c594d9c290adb63f0757bfbbf721fa",
-                "shasum": "9adb3eb41876504fd10dbbdc27040a8835579f00"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-e1fefad124d998b4a3c1c377975e804cd425e1de-zip-327207.zip",
+                "reference": "e1fefad124d998b4a3c1c377975e804cd425e1de",
+                "shasum": "c2a4519574d9f2c9373340328ce632a8da4a54dc"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.9",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.10",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2023-04-24T17:12:43+00:00"
+            "time": "2023-04-25T10:06:43+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -1619,16 +1619,16 @@
         },
         {
             "name": "php-http/discovery",
-            "version": "1.15.3",
+            "version": "1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/discovery.git",
-                "reference": "3ccd28dd9fb34b52db946abea1b538568e34eae8"
+                "reference": "bd810d15957cf165230e65d9e1a130793265e3b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/discovery/zipball/3ccd28dd9fb34b52db946abea1b538568e34eae8",
-                "reference": "3ccd28dd9fb34b52db946abea1b538568e34eae8",
+                "url": "https://api.github.com/repos/php-http/discovery/zipball/bd810d15957cf165230e65d9e1a130793265e3b7",
+                "reference": "bd810d15957cf165230e65d9e1a130793265e3b7",
                 "shasum": ""
             },
             "require": {
@@ -1636,7 +1636,8 @@
                 "php": "^7.1 || ^8.0"
             },
             "conflict": {
-                "nyholm/psr7": "<1.0"
+                "nyholm/psr7": "<1.0",
+                "zendframework/zend-diactoros": "*"
             },
             "provide": {
                 "php-http/async-client-implementation": "*",
@@ -1661,7 +1662,10 @@
             "autoload": {
                 "psr-4": {
                     "Http\\Discovery\\": "src/"
-                }
+                },
+                "exclude-from-classmap": [
+                    "src/Composer/Plugin.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1687,9 +1691,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-http/discovery/issues",
-                "source": "https://github.com/php-http/discovery/tree/1.15.3"
+                "source": "https://github.com/php-http/discovery/tree/1.17.0"
             },
-            "time": "2023-03-31T14:40:37+00:00"
+            "time": "2023-04-26T15:39:13+00:00"
         },
         {
             "name": "php-http/guzzle7-adapter",
@@ -2147,16 +2151,16 @@
         },
         {
             "name": "psr/http-message",
-            "version": "2.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71"
+                "reference": "cb6ce4845ce34a8ad9e68117c10ee90a29919eba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/402d35bcb92c70c026d1a6a9883f06b2ead23d71",
-                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/cb6ce4845ce34a8ad9e68117c10ee90a29919eba",
+                "reference": "cb6ce4845ce34a8ad9e68117c10ee90a29919eba",
                 "shasum": ""
             },
             "require": {
@@ -2165,7 +2169,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -2180,7 +2184,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP messages",
@@ -2194,9 +2198,9 @@
                 "response"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-message/tree/2.0"
+                "source": "https://github.com/php-fig/http-message/tree/1.1"
             },
-            "time": "2023-04-04T09:54:51+00:00"
+            "time": "2023-04-04T09:50:52+00:00"
         },
         {
             "name": "psr/log",
@@ -3370,15 +3374,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.12.1",
+            "version": "3.12.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.12.1"
+                "reference": "tags/3.12.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3460,15 +3464,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "20.5",
+            "version": "20.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/20.5"
+                "reference": "tags/20.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.20.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.20.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
