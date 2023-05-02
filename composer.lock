@@ -125,16 +125,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.269.1",
+            "version": "3.269.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "03b0b8984c46c469c70bfb05fea7b1ac9b859a8e"
+                "reference": "0be880140b9fe48f67fcbf5f1ed19a1d08116369"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/03b0b8984c46c469c70bfb05fea7b1ac9b859a8e",
-                "reference": "03b0b8984c46c469c70bfb05fea7b1ac9b859a8e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0be880140b9fe48f67fcbf5f1ed19a1d08116369",
+                "reference": "0be880140b9fe48f67fcbf5f1ed19a1d08116369",
                 "shasum": ""
             },
             "require": {
@@ -214,9 +214,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.269.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.269.3"
             },
-            "time": "2023-04-27T18:22:40+00:00"
+            "time": "2023-05-01T18:21:53+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1233,25 +1233,25 @@
         },
         {
             "name": "ministryofjustice/wp-hale",
-            "version": "3.7.10",
+            "version": "3.7.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ministryofjustice/wp-hale.git",
-                "reference": "e1fefad124d998b4a3c1c377975e804cd425e1de"
+                "reference": "8f3ecbea1add0f19fcf85010c7f5e0022b9d573c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-e1fefad124d998b4a3c1c377975e804cd425e1de-zip-327207.zip",
-                "reference": "e1fefad124d998b4a3c1c377975e804cd425e1de",
-                "shasum": "c2a4519574d9f2c9373340328ce632a8da4a54dc"
+                "url": "https://composer.wp.dsd.io/dist/ministryofjustice/wp-hale/ministryofjustice-wp-hale-8f3ecbea1add0f19fcf85010c7f5e0022b9d573c-zip-6a8f9a.zip",
+                "reference": "8f3ecbea1add0f19fcf85010c7f5e0022b9d573c",
+                "shasum": "6ce3c1d26fab862454f6187ade0a9dd9bb9bd98d"
             },
             "type": "wordpress-theme",
             "description": "Hale theme",
             "support": {
-                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.10",
+                "source": "https://github.com/ministryofjustice/wp-hale/tree/3.7.11",
                 "issues": "https://github.com/ministryofjustice/wp-hale/issues"
             },
-            "time": "2023-04-25T10:06:43+00:00"
+            "time": "2023-05-02T09:18:27+00:00"
         },
         {
             "name": "ministryofjustice/wp-moj-blocks",
@@ -2615,16 +2615,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.22",
+            "version": "v5.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "4cd1b7e7ee846c8b22cb47cbc435344af9b2a8bf"
+                "reference": "617c98e46b54e43ca76945a908b1749bb82f4478"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/4cd1b7e7ee846c8b22cb47cbc435344af9b2a8bf",
-                "reference": "4cd1b7e7ee846c8b22cb47cbc435344af9b2a8bf",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/617c98e46b54e43ca76945a908b1749bb82f4478",
+                "reference": "617c98e46b54e43ca76945a908b1749bb82f4478",
                 "shasum": ""
             },
             "require": {
@@ -2685,7 +2685,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.22"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.23"
             },
             "funding": [
                 {
@@ -2701,7 +2701,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-24T15:16:26+00:00"
+            "time": "2023-04-20T13:04:04+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
